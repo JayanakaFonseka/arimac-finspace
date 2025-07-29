@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+html {
+  font-family: var(--font-inter);
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* --background: #ffffff;
+  --foreground: #171717; */
+  --font-montserrat: "Montserrat", sans-serif;
+  /* --color-primary: #3B36AB;
+  --color-secondary: #79cc56; */
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Prevent background color change on autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important; /* Change 'white' to your desired background color */
+  -webkit-text-fill-color: #000 !important; /* Change '#000' to your desired text color */
+}
+
+@layer utilities {
+  .animate-slow-spin {
+    animation: spin-slow 120s linear infinite;
+  }
+
+  @keyframes spin-slow {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

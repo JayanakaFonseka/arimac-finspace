@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "title": "Powering Sri Lanka’s #1 Banking App",
+    "description": "Arimac transformed the People’s Bank app into Sri Lanka’s most downloaded banking app with over 2 million downloads and 100Mn+ transactions. Through smart UX, LankaQR integration, and user-first innovation, we tripled the user base in just 12 months.",
+    "clientLogo": "/home/clients/logos/peoples-bank.png",
+    "image": "/home/clients/images/peoples-bank.png",
+    "redirectURL": "/company/customers/peoples-bank",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Customers",
+        "value": "14Mn+"
+      },
+      {
+        "id": 2,
+        "name": "Assets",
+        "value": "LKR 1T+"
+      },
+      {
+        "id": 3,
+        "name": "Branches",
+        "value": "600+"
+      },
+      {
+        "id": 4,
+        "name": "Employees",
+        "value": "7000+"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "AIA Insurance Customer Experience Suite",
+    "description": "AIA’s Customer Experience Suite changes how millions manage life, health, and retirement services. Using Adobe technology, it offers an easy-to-use portal that focuses on innovation and personalization, helping people live healthier and better lives.",
+    "clientLogo": "/home/clients/logos/aia.png",
+    "image": "/home/clients/images/aia.png",
+    "redirectURL": "/company/customers/aia",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Market value",
+        "value": "140B+ USD"
+      },
+      {
+        "id": 2,
+        "name": "Individual customers",
+        "value": "39Mn+"
+      },
+      {
+        "id": 3,
+        "name": "markets across Asia-Pacific",
+        "value": "18"
+      },
+      {
+        "id": 4,
+        "name": "Assets",
+        "value": "341B+ USD"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Qatar Pay Later (PayLater)",
+    "description": "We built a simple, Shari’a-compliant payment system that lets people split their purchases into easy, interest-free installments. It works online and in stores, helping customers buy with ease and helping businesses grow.",
+    "clientLogo": "/home/clients/logos/paylater.png",
+    "image": "/home/clients/images/paylater.png",
+    "redirectURL": "/company/customers/paylater",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Interest-Free Installments",
+        "value": "100%"
+      },
+      {
+        "id": 2,
+        "name": "Increase in AOV",
+        "value": "+60%"
+      },
+      {
+        "id": 3,
+        "name": "Customer Repeat Rate",
+        "value": "+50%"
+      },
+      {
+        "id": 4,
+        "name": "Shari’a-Compliant Solution",
+        "value": "100%"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Visa USA: Real Solutions. Global Scale",
+    "description": "Visa USA is at the heart of our digital payment innovations. From immersive e-commerce UX to streamlined payment panels, our Visa-powered solutions help organizations like Oxfam and SAIV scale smarter",
+    "clientLogo": "/home/clients/logos/visa.png",
+    "image": "/home/clients/images/visa.png",
+    "redirectURL": "/company/customers/visa",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Cards issued globally",
+        "value": "3.5B+"
+      },
+      {
+        "id": 2,
+        "name": "Partners accepting",
+        "value": "61Mn+"
+      },
+      {
+        "id": 3,
+        "name": "Countries served",
+        "value": "200+"
+      },
+      {
+        "id": 4,
+        "name": "Consumers",
+        "value": "1B+"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "One App. Endless Possibilities.",
+    "description": "The Softlogic Super App brings together shopping, healthcare, finance, and more — all in one seamless experience. Discover exclusive deals, make secure payments, and access everything Softlogic with just a tap.",
+    "clientLogo": "/home/clients/logos/softlogic.png",
+    "image": "/home/clients/images/softlogic.jpg",
+    "redirectURL": "/company/customers/softlogic",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Global Brands",
+        "value": "40+"
+      },
+      {
+        "id": 2,
+        "name": "Employees",
+        "value": "11,000+"
+      },
+      {
+        "id": 3,
+        "name": "Outlets",
+        "value": "230+"
+      },
+      {
+        "id": 4,
+        "name": "Annual Revenue",
+        "value": "80B+ LKR"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Cashew Payment",
+    "description": "Cashew Payments is a next-gen fintech platform built to make your transactions smoother, faster, and smarter. Whether you're a business or an individual, we give you the tools to manage payments effortlessly; all in one place.",
+    "clientLogo": "/home/clients/logos/cashew.png",
+    "image": "/home/clients/images/cashew.png",
+    "redirectURL": "/company/customers/cashew",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Total funding",
+        "value": "$41M+"
+      },
+      {
+        "id": 2,
+        "name": "Trusted merchants",
+        "value": "200+"
+      },
+      {
+        "id": 3,
+        "name": "Happy customers",
+        "value": "8,000+"
+      },
+      {
+        "id": 4,
+        "name": "Monthly transaction",
+        "value": "$1M–$10M"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Riyad Bank Digital Innovation Center",
+    "description": "Our solution for Riyad Bank’s Digital Innovation Center blends immersive technology, user-centric design, and interactive experiences to showcase the future of banking — smarter, seamless, and engaging.",
+    "clientLogo": "/home/clients/logos/riyad-bank.png",
+    "image": "/home/clients/images/riyad-bank.jpg",
+    "redirectURL": "/company/customers/riyad-bank",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Net Profit Growth YoY",
+        "value": "+16%"
+      },
+      {
+        "id": 2,
+        "name": "Branches Nationwide",
+        "value": "330+"
+      },
+      {
+        "id": 3,
+        "name": "Employees",
+        "value": "7.8K+"
+      },
+      {
+        "id": 4,
+        "name": "in Assets",
+        "value": "SAR 433B+"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Next-Gen Investment Experience",
+    "description": "Asia Securities redefined its digital presence through a secure, intelligent platform enabling faster insights and investor engagement.",
+    "clientLogo": "/home/clients/logos/asia-securities.png",
+    "image": "/home/clients/images/asia-securities.png",
+    "redirectURL": "/company/customers/asia-securities",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Cards issued globally",
+        "value": "3.5B+"
+      },
+      {
+        "id": 2,
+        "name": "Partners accepting",
+        "value": "61Mn+"
+      },
+      {
+        "id": 3,
+        "name": "Countries served",
+        "value": "200+"
+      },
+      {
+        "id": 4,
+        "name": "Consumers",
+        "value": "1B+"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Friendipay",
+    "description": "Friendipay is a digital wallet app in Kuwait that lets users pay, send money, and manage finances securely from their phones. We built a user-friendly platform with features like bill payments, mobile top-ups, QR payments, and easy eKYC onboarding. With support for multiple languages and local merchants, Friendipay makes everyday spending simple.",
+    "clientLogo": "/home/clients/logos/friendi-pay.png",
+    "image": "/home/clients/images/friendi-pay.jpg",
+    "redirectURL": "/company/customers/friendi-pay",
+    "stats": [
+      {
+        "id": 1,
+        "name": "Digital Payments",
+        "value": "QR Code"
+      },
+      {
+        "id": 2,
+        "name": "Payment Options",
+        "value": "Multi"
+      },
+      {
+        "id": 3,
+        "name": "Onboarding Languages",
+        "value": "3+"
+      }
+    ]
+  }
+]

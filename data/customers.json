@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 1,
+    "identifier": "peoples-bank",
+    "name": "Peoples Bank",
+    "title": "How People’s Bank App Became Sri Lanka’s No. 1",
+    "description": "The Largest Government FinTech Deployment in the Nation",
+    "image": "/images/company-customers/peoples-bank/peoples-bank.jpg",
+    "logo": "/home/clients/logos/peoples-bank.png",
+    "logoDesc": "One of Sri Lanka’s most trusted financial institutions, People’s Bank leads the charge in digital banking innovation — transforming how millions access financial services every day",
+    "highlights": [
+      {
+        "id": 1,
+        "title": "3x Growth",
+        "description": "User base tripled in just 12 months"
+      },
+      {
+        "id": 2,
+        "title": "#1 in Digital Banking",
+        "description": "Set a new benchmark for user-focused FinTech in the country"
+      },
+      {
+        "id": 3,
+        "title": "1M+ New Users",
+        "description": "Became the most downloaded banking app in Sri Lanka"
+      }
+    ],
+    "stepsData": {
+      "title": "It’s More Than Numbers",
+      "description": "It’s thoughtful UX, human-first design, and innovation that serves everyone.",
+      "innerColor": "text-[#8CC63E]",
+      "outerColor": "bg-[#F2FAEE]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Smart UX that simplifies every tap"
+        },
+        {
+          "id": 2,
+          "title": "LankaQR integration for frictionless payments"
+        },
+        {
+          "id": 3,
+          "title": "SmartPay — the easiest way to pay bills & transfer money"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "People’s Bank × Arimac",
+      "description": "A winning partnership built on trust, insight, and impact.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Years of close collaboration",
+          "image": "/images/company-customers/peoples-bank/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Banking expertise meets agile tech delivery",
+          "image": "/images/company-customers/peoples-bank/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Shared vision, executed flawlessly",
+          "image": "/images/company-customers/peoples-bank/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Rapid, iterative releases",
+          "image": "/images/company-customers/peoples-bank/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features That Make People’s Pay Stand Out",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/peoples-bank/bg-frame.svg",
+      "image": "/images/company-customers/peoples-bank/peoples-bank-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Secure Biometric Login",
+          "style": "top-[12%] right-[35%]",
+          "delay": 0.5,
+          "xValue": 0,
+          "yValue": 20
+        },
+        {
+          "id": 2,
+          "label": "Understand customers deeply",
+          "style": "top-[27%] right-[15%]",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": 30
+        },
+        {
+          "id": 3,
+          "label": "Multi-Bank Transfers",
+          "style": "bottom-[47%] right-[17%]",
+          "delay": 1.5,
+          "xValue": -30,
+          "yValue": 0
+        },
+        {
+          "id": 4,
+          "label": "GovPay Integrated",
+          "style": "bottom-[19%] right-[30%]",
+          "delay": 2,
+          "xValue": -30,
+          "yValue": -30
+        },
+        {
+          "id": 5,
+          "label": "Built-in FIDO Security",
+          "style": "bottom-[25%] left-[23%]",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": -30
+        },
+        {
+          "id": 6,
+          "label": "Mobile Reloads & Utility Bills",
+          "style": "top-[50%] left-[25%]",
+          "delay": 3,
+          "xValue": 30,
+          "yValue": 0
+        },
+        {
+          "id": 7,
+          "label": "LankaQR Ready",
+          "style": "top-[35%] left-[22%]",
+          "delay": 3.5,
+          "xValue": 30,
+          "yValue": 30
+        },
+        {
+          "id": 8,
+          "label": "Open an Account in Minutes",
+          "style": "top-[18%] left-[26%]",
+          "delay": 4,
+          "xValue": 30,
+          "yValue": 30
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "People’s Pay was our success story ; now, let’s build your own.",
+      "description": "Let’s not copy-paste;  let’s create a game-changing payment experience unique to your brand"
+    }
+  },
+  {
+    "id": 2,
+    "identifier": "visa",
+    "name": "VISA",
+    "title": "Visa USA Is Powering the Future of Global Payments",
+    "description": "Transforming Experiences – One Project at a Time",
+    "image": "/images/company-customers/visa/visa.png",
+    "logo": "/home/clients/logos/visa.png",
+    "logoDesc": "Visa is a world leader in digital payments, connecting people, businesses, and governments with fast, secure, and reliable transactions. With cutting-edge financial technology, Visa is shaping the future of global commerce; one tap at a time.",
+    "highlights": [
+      {
+        "id": 1,
+        "title": "USD 50K+",
+        "subTitle": "Monthly Savings",
+        "description": "Thanks to optimized checkout and fraud prevention"
+      },
+      {
+        "id": 2,
+        "title": "500+",
+        "subTitle": "Daily Global Visits",
+        "description": "Visa’s tools are in active use across markets"
+      },
+      {
+        "id": 3,
+        "title": "10",
+        "subTitle": "Weeks to Launch",
+        "description": "SAIV platform delivered under accelerated rollout"
+      }
+    ],
+    "stepsData": {
+      "title": "It’s More Than Just Payments",
+      "description": "It’s progress, inclusion, and data-driven commerce at global scale.",
+      "innerColor": "text-[#1D1D1B]",
+      "outerColor": "bg-[#EFEDFF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Frictionless UX with AI-powered checkout"
+        },
+        {
+          "id": 2,
+          "title": "Payment systems that learn, adapt, and recommend"
+        },
+        {
+          "id": 3,
+          "title": "Financial access for underserved communities"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "VISA USA × Arimac",
+      "description": "A unified investment platform built on trust, security, and smart design.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Faster global payments",
+          "image": "/images/company-customers/visa/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "AI-powered fraud protection",
+          "image": "/images/company-customers/visa/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Inclusive digital finance",
+          "image": "/images/company-customers/visa/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Actionable business insights",
+          "image": "/images/company-customers/visa/colab/colab-4.png"
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Let’s Build Payment Solutions That Power the Future",
+      "description": "Inspired by Visa? Let’s co-create fintech that delivers global impact with local precision."
+    }
+  },
+  {
+    "id": 3,
+    "identifier": "softlogic",
+    "name": "Softlogic",
+    "title": "Softlogic’s Super App Is Redefining Everyday Life in Sri Lanka",
+    "description": "The Largest Conglomerate-led Multi-Industry Platform in the Nation",
+    "image": "/images/company-customers/softlogic/softlogic.jpg",
+    "logo": "/home/clients/logos/softlogic.png",
+    "logoDesc": "Softlogic Holdings is one of Sri Lanka’s most diversified and trusted corporate entities. With a powerful presence across retail, ICT, healthcare, finance, and more, Softlogic connects millions of Sri Lankans to the brands they love — now all under one super app.",
+    "stepsData": {
+      "title": "It’s More Than Convenience",
+      "description": "It’s ecosystem synergy, customer-first innovation, and security at scale.",
+      "innerColor": "text-[#0D5CA3]",
+      "outerColor": "bg-[#ECF6FF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Smart UX across verticals"
+        },
+        {
+          "id": 2,
+          "title": "Real-time personalization & loyalty"
+        },
+        {
+          "id": 3,
+          "title": "Aggregated services, one login"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "Softlogic × Arimac",
+      "description": "A partnership built on product vision, design execution, and trust.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Strategic product thinking",
+          "image": "/images/company-customers/softlogic/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Cross-domain tech synergy",
+          "image": "/images/company-customers/softlogic/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Retail to banking fusion",
+          "image": "/images/company-customers/softlogic/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Rapid prototyping & QA",
+          "image": "/images/company-customers/softlogic/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features That Make People’s Pay Stand Out",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/softlogic/bg-frame.svg",
+      "image": "/images/company-customers/softlogic/softlogic-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Open a universal Softlogic account in minutes",
+          "style": "top-[11%] right-[26%] max-w-[285px] text-start",
+          "delay": 0.5,
+          "xValue": -10,
+          "yValue": 20
+        },
+        {
+          "id": 2,
+          "label": "Shop, book appointments, pay bills, track orders",
+          "style": "top-[40%] right-[14%] max-w-[255px] text-start",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": 0
+        },
+        {
+          "id": 3,
+          "label": "Real-time store locators, vouchers, offers",
+          "style": "bottom-[25%] right-[25%] max-w-[246px] text-start",
+          "delay": 1.5,
+          "xValue": -30,
+          "yValue": -30
+        },
+        {
+          "id": 4,
+          "label": "Identity & payment aggregation for all Softlogic services",
+          "style": "bottom-[16%] left-[24%] max-w-[297px] text-start",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": -30
+        },
+        {
+          "id": 5,
+          "label": "Multi-layer security with biometric & FIDO login",
+          "style": "bottom-[45%] left-[12%] max-w-[256px] text-start",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 0
+        },
+        {
+          "id": 6,
+          "label": "Access hospitals, financial services, telco, and lifestyle brands",
+          "style": "top-[18%] left-[20%] max-w-[362px] text-start",
+          "delay": 3,
+          "xValue": 30,
+          "yValue": 30
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Your Brand Could Be Next",
+      "description": "Let’s build your own super app — inspired by Sri Lanka’s most trusted platform."
+    }
+  },
+  {
+    "id": 4,
+    "identifier": "cashew",
+    "name": "Cashew",
+    "title": "Cashew Is Changing the Game in Everyday Fintech",
+    "description": "Flexible Transaction Management Portal",
+    "image": "/images/company-customers/cashew/cashew.jpg",
+    "logo": "/home/clients/logos/cashew.png",
+    "logoDesc": "Cashew Payments is a leading UAE-based fintech transforming how businesses and individuals manage digital payments. With rising customer demand and an expanding merchant base, Cashew needed a platform that delivered speed, security, and seamless interaction — all without compromising scalability.",
+    "stepsData": {
+      "title": "It’s More Than Just Payments",
+      "description": "It’s modular design, security-first thinking, and merchant-centric experiences.",
+      "innerColor": "text-[#5B5B5B]",
+      "outerColor": "bg-[#EFEFEF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Unified interface across web and mobile"
+        },
+        {
+          "id": 2,
+          "title": "Real-time personalization for merchants & users"
+        },
+        {
+          "id": 3,
+          "title": "Aggregated services with single login access"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "Cashew × Arimac",
+      "description": "From friction to flow — a partnership powered by fintech expertise.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Modular platform design",
+          "image": "/images/company-customers/cashew/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Secure, compliant architecture",
+          "image": "/images/company-customers/cashew/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Real-time UX iterations",
+          "image": "/images/company-customers/cashew/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Scalable for cross-sector growth",
+          "image": "/images/company-customers/cashew/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features That Make Cashew Stand Out",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/cashew/bg-frame.svg",
+      "image": "/images/company-customers/cashew/cashew-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "API-ready backend for integrations",
+          "style": "top-[16%] right-[20%]",
+          "delay": 0.5,
+          "xValue": -20,
+          "yValue": 20
+        },
+        {
+          "id": 2,
+          "label": "Dedicated merchant dashboard",
+          "style": "top-[37%] right-[17%]",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": 0
+        },
+        {
+          "id": 3,
+          "label": "Track orders & past transactions",
+          "style": "bottom-[24%] right-[24%]",
+          "delay": 1.5,
+          "xValue": -30,
+          "yValue": -30
+        },
+        {
+          "id": 4,
+          "label": "Add / manage cards",
+          "style": "bottom-[18%] left-[28%]",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": -30
+        },
+        {
+          "id": 5,
+          "label": "Scan & Pay with QR",
+          "style": "bottom-[45%] left-[17%]",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 0
+        },
+        {
+          "id": 6,
+          "label": "Biometric & PIN-based login",
+          "style": "top-[24%] left-[24%]",
+          "delay": 3,
+          "xValue": 30,
+          "yValue": 30
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Let’s Build the Next Big Payment Experience",
+      "description": "Inspired by Cashew? Let’s co-create something just as impactful — tailored to your region or sector."
+    }
+  },
+  {
+    "id": 5,
+    "identifier": "paylater",
+    "name": "Qatar PayLater",
+    "title": "Qatar PayLater Makes Payments Simple, Smart, and Seamless",
+    "description": "Intuitive Buy Now, Pay Later Rollout",
+    "image": "/images/company-customers/qpl/qpl.png",
+    "logo": "/home/clients/logos/paylater.png",
+    "logoDesc": "Qatar Pay Later (PayLater) is a Shari’a-compliant BNPL platform aligned with Qatar’s vision for inclusive, digitized financial access. Supporting both online and in-store payments, it partners with institutions like Qatar Islamic Bank (QIB) to offer flexible, interest-free payment solutions across the nation.",
+    "stepsData": {
+      "title": "It’s More Than Just Installments",
+      "description": "It’s modular design, security-first thinking, and merchant-centric experiences.",
+      "innerColor": "text-[#3FB5D6]",
+      "outerColor": "bg-[#F4F2FF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Smart UX that feels natural for customers and merchants"
+        },
+        {
+          "id": 2,
+          "title": "Shari’a-compliant backend, secure payment flow"
+        },
+        {
+          "id": 3,
+          "title": "Unified platform for online and in-store usage"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "PayLater × Arimac",
+      "description": "Designed for financial inclusion, delivered with agile expertise.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Regionally aligned design",
+          "image": "/images/company-customers/qpl/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Scalable BNPL architecture",
+          "image": "/images/company-customers/qpl/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Shari’a-compliant flows",
+          "image": "/images/company-customers/qpl/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Merchant onboarding tools",
+          "image": "/images/company-customers/qpl/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features That Make PayLater Stand Out",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/qpl/bg-frame.svg",
+      "image": "/images/company-customers/qpl/qpl-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Zero-interest BNPL purchase flow",
+          "style": "top-[14%] right-[20%]",
+          "delay": 0.5,
+          "xValue": -20,
+          "yValue": 30
+        },
+        {
+          "id": 2,
+          "label": "Online + in-store checkout support",
+          "style": "top-[35%] right-[15%]",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": 20
+        },
+        {
+          "id": 3,
+          "label": "Built-in merchant management tools",
+          "style": "bottom-[25%] right-[22%]",
+          "delay": 1.5,
+          "xValue": -30,
+          "yValue": -20
+        },
+        {
+          "id": 4,
+          "label": "Fast repeat transactions",
+          "style": "bottom-[35%] left-[18%]",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": -20
+        },
+        {
+          "id": 5,
+          "label": "Mobile-optimized UI for Gen Z to Gen X",
+          "style": "top-[30%] left-[14%]",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 30
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Want to Attract Younger Shoppers? How BNPL Fits Their Lifestyle",
+      "description": "Let’s bring your idea to life with the right tech, strategy, and local insight."
+    }
+  },
+  {
+    "id": 6,
+    "identifier": "friendi-pay",
+    "name": "Friendi Pay",
+    "title": "FriendyPay Turns Your Phone into Kuwait’s Most Trusted Wallet",
+    "description": "Fintech Wallet for an Easier Everyday Life",
+    "image": "/images/company-customers/friendi-pay/friendi-pay.jpg",
+    "logo": "/home/clients/logos/friendi-pay.png",
+    "logoDesc": "FriendiPay is a secure digital wallet app built for users in Kuwait, offering a simple way to pay, send money, top up mobile, and manage bills — all from a smartphone. Designed for inclusivity and ease, the platform helps customers perform daily financial tasks quickly and safely, with support for multiple languages and local merchant integrations.",
+    "stepsData": {
+      "title": "It’s More Than Just a Wallet",
+      "description": "It’s a connected, accessible financial tool designed for daily life in Kuwait.",
+      "innerColor": "text-[#033B38]",
+      "outerColor": "bg-[#F4FFFF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Digital wallet tailored to local habits"
+        },
+        {
+          "id": 2,
+          "title": "Multilingual onboarding & support"
+        },
+        {
+          "id": 3,
+          "title": "Built for mobile convenience and scale"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "FriendiPay × Arimac",
+      "description": "A wallet experience designed for Kuwait’s evolving digital landscape.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Localized onboarding & UX",
+          "image": "/images/company-customers/friendi-pay/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Modular merchant integrations",
+          "image": "/images/company-customers/friendi-pay/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Scalable tech architecture",
+          "image": "/images/company-customers/friendi-pay/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Built for high-volume usage",
+          "image": "/images/company-customers/friendi-pay/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features That Make FriendiPay Stand Out",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/friendi-pay/bg-frame.svg",
+      "image": "/images/company-customers/friendi-pay/friendi-pay-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Instant QR-based payments",
+          "style": "top-[14%] right-[24%]",
+          "delay": 0.5,
+          "xValue": -20,
+          "yValue": 30
+        },
+        {
+          "id": 2,
+          "label": "Bill payments, top-ups, shopping",
+          "style": "top-[35%] right-[15%]",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": 20
+        },
+        {
+          "id": 3,
+          "label": "Fast eKYC with language selection",
+          "style": "bottom-[25%] right-[22%]",
+          "delay": 1.5,
+          "xValue": -30,
+          "yValue": -20
+        },
+        {
+          "id": 4,
+          "label": "Merchant-facing dashboard module",
+          "style": "bottom-[35%] left-[18%]",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": -20
+        },
+        {
+          "id": 5,
+          "label": "Seamless mobile UI/UX",
+          "style": "top-[30%] left-[14%]",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 20
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Ready for the next-level bank experience?",
+      "description": "Let's inspire, connect, and build your own with FriendlyPay"
+    }
+  },
+  {
+    "id": 7,
+    "identifier": "riyad-bank",
+    "name": "Riyad Bank",
+    "title": "Inside Riyad Bank’s Bold Leap into Smart Banking Innovation",
+    "description": "The Digital Innovation Center — Where Tech Meets Vision",
+    "image": "/images/company-customers/riyad-bank/riyad-bank.jpg",
+    "logo": "/home/clients/logos/riyad-bank.png",
+    "logoDesc": "Riyad Bank, one of Saudi Arabia’s largest and most respected financial institutions, has been a pioneer in retail, corporate, and investment banking since 1957. Now, through its Digital Innovation Center, the bank showcases its bold, tech-driven vision for the future of finance — brought to life through immersive, interactive experiences.",
+    "stepsData": {
+      "title": "It’s More Than a Demo",
+      "description": "It’s a vision in action — merging play, learning, and tech leadership.",
+      "innerColor": "text-[#018E80]",
+      "outerColor": "bg-[#F1EEFF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Interactive journeys tailored to each user"
+        },
+        {
+          "id": 2,
+          "title": "Web AR exploration with real-time feedback"
+        },
+        {
+          "id": 3,
+          "title": "Innovation zones with robotics and gamifications"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "Riyad Bank × Arimac",
+      "description": "Crafting an experience that reflects Saudi Arabia’s fintech ambitions.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Vision-led UX strategy",
+          "image": "/images/company-customers/riyad-bank/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Future-forward technology integration",
+          "image": "/images/company-customers/riyad-bank/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Real-time, modular demos",
+          "image": "/images/company-customers/riyad-bank/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Scalable for regional showcases",
+          "image": "/images/company-customers/riyad-bank/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features That Make Riyad Bank Stand Out",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/riyad-bank/bg-frame.svg",
+      "image": "/images/company-customers/riyad-bank/riyad-bank-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Web AR experiences for all banking products",
+          "style": "top-[14%] right-[14%]",
+          "delay": 0.5,
+          "xValue": -20,
+          "yValue": 30
+        },
+        {
+          "id": 2,
+          "label": "Gamified kiosks and smart displays",
+          "style": "top-[35%] right-[15%]",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": 20
+        },
+        {
+          "id": 3,
+          "label": "Autonomous robot guides and assistants",
+          "style": "bottom-[25%] right-[18%]",
+          "delay": 1.5,
+          "xValue": -30,
+          "yValue": -20
+        },
+        {
+          "id": 4,
+          "label": "UI-first digital journeys for every personal",
+          "style": "bottom-[35%] left-[18%]",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": -20
+        },
+        {
+          "id": 5,
+          "label": "Real-time analytics on visitor behavior",
+          "style": "top-[29%] left-[14%]",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 20
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Experience banking like never before. Riyadh Bank",
+      "description": "Inspiring people to pay smarter and create your own way"
+    }
+  },
+  {
+    "id": 8,
+    "identifier": "aia",
+    "name": "AIA",
+    "title": "How AIA Revolutionized Customer Experience Across Asia",
+    "description": "A Seamless, Scalable Digital Portal for Millions",
+    "image": "/images/company-customers/aia/aia.jpg",
+    "logo": "/home/clients/logos/aia.png",
+    "logoDesc": "AIA is one of the most prominent life insurance providers in the Asia-Pacific region, delivering solutions in life, health, and retirement. Known for its innovation-first mindset, AIA has pioneered digital transformation across 18+ markets, focusing on helping people lead healthier, longer, better lives.",
+    "highlights": [
+      {
+        "id": 1,
+        "title": "USD 140B+",
+        "subTitle": "Market Value",
+        "description": "AIA continues to be one of the world’s largest insurers"
+      },
+      {
+        "id": 2,
+        "title": "39Mn+",
+        "subTitle": "Individual Customers",
+        "description": "Empowered with digital access across countries"
+      },
+      {
+        "id": 3,
+        "title": "USD 341B+",
+        "subTitle": "Assets Under Management",
+        "description": "Handled through compliant and scalable tech infrastructure"
+      }
+    ],
+    "stepsData": {
+      "title": "It’s More Than Just a Portal",
+      "description": "It’s a scalable, multilingual customer suite built on self-sufficiency and trust.",
+      "innerColor": "text-[#D02148]",
+      "outerColor": "bg-[#FFF0F4]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Centralized portal for health, life, and pensions"
+        },
+        {
+          "id": 2,
+          "title": "Built with Adobe Experience Manager for scale"
+        },
+        {
+          "id": 3,
+          "title": "Designed for users to manage everything independently"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "AIA × Arimac",
+      "description": "From paper-heavy to self-driven — a partnership empowering 39 million lives.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Digital transformation strategy",
+          "image": "/images/company-customers/aia/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Scalable UI for mobile & desktop",
+          "image": "/images/company-customers/aia/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Enterprise-grade security and compliance",
+          "image": "/images/company-customers/aia/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "UX crafted for insurance simplicity",
+          "image": "/images/company-customers/aia/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features of the AIA Customer Experience Suite",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/aia/bg-frame.svg",
+      "image": "/images/company-customers/aia/aia-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Portal access to health, life, and pension plans",
+          "style": "top-[16%] right-[20%] max-w-[285px] text-start",
+          "delay": 0.5,
+          "xValue": -20,
+          "yValue": 20
+        },
+        {
+          "id": 2,
+          "label": "Claim status, document upload, and history tracking",
+          "style": "bottom-[40%] right-[25%] max-w-[285px] text-start",
+          "delay": 1,
+          "xValue": -20,
+          "yValue": -20
+        },
+        {
+          "id": 3,
+          "label": "Localization across Asia-Pacific languages",
+          "style": "bottom-[31%] left-[23%] max-w-[256px] text-start",
+          "delay": 1.5,
+          "xValue": 30,
+          "yValue": -30
+        },
+        {
+          "id": 4,
+          "label": "Policyholder dashboard and quick logins",
+          "style": "bottom-[54%] left-[3%] max-w-[255px] text-start",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": 0
+        },
+        {
+          "id": 5,
+          "label": "Fully mobile-responsive & desktop compatible",
+          "style": "top-[19%] left-[10%] max-w-[362px] text-start",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 30
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Ready to Build Your Customer Experience Suite?",
+      "description": "Let’s design a platform that puts your customers in control — just like AIA did"
+    }
+  },
+  {
+    "id": 9,
+    "identifier": "asia-securities",
+    "name": "Asia Securities",
+    "title": "Curious How Asia Securities Transforms Security and User Management?",
+    "description": "A Powerful Platform for Secure Client Onboarding and Portfolio Management",
+    "image": "/images/company-customers/asia-securities/asia-securities.png",
+    "logo": "/home/clients/logos/asia-securities.png",
+    "logoDesc": "Asia Securities partnered with us to build a secure and modern digital trading platform that streamlines client onboarding, real-time portfolio access, and back-office administration. Designed with both clients and administrators in mind, the solution ensures transparency, security, and complete control — all in one place.",
+    "stepsData": {
+      "title": "It’s More Than a Trading Platform",
+      "description": "It’s a fully managed ecosystem for secure trading, compliance, and user empowerment.",
+      "innerColor": "text-[#1D1D1B]",
+      "outerColor": "bg-[#EFEDFF]",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Frictionless onboarding and account recovery"
+        },
+        {
+          "id": 2,
+          "title": "Real-time views into portfolio and trading"
+        },
+        {
+          "id": 3,
+          "title": "Enterprise-ready admin controls and audits"
+        }
+      ]
+    },
+    "colabsData": {
+      "title": "Asia Securities × Arimac",
+      "description": "A unified investment platform built on trust, security, and smart design.",
+      "colabs": [
+        {
+          "id": 1,
+          "title": "Configurable enterprise tools",
+          "image": "/images/company-customers/asia-securities/colab/colab-1.png"
+        },
+        {
+          "id": 2,
+          "title": "UX-driven for clients and admins",
+          "image": "/images/company-customers/asia-securities/colab/colab-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Real-time trading logic",
+          "image": "/images/company-customers/asia-securities/colab/colab-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Layered authentication and audits",
+          "image": "/images/company-customers/asia-securities/colab/colab-4.png"
+        }
+      ]
+    },
+    "featuresData": {
+      "title": "Key Features of the Asia Securities",
+      "description": "Everything you need, right at your fingertips.",
+      "frame": "/images/company-customers/asia-securities/bg-frame.svg",
+      "image": "/images/company-customers/asia-securities/asia-securities-features.png",
+      "features": [
+        {
+          "id": 1,
+          "label": "Client Onboarding",
+          "style": "top-[16%] right-[15%]",
+          "delay": 0.5,
+          "xValue": -30,
+          "yValue": 30
+        },
+        {
+          "id": 2,
+          "label": "Portfolio & Trading View",
+          "style": "bottom-[36%] right-[10%]",
+          "delay": 1,
+          "xValue": -30,
+          "yValue": -30
+        },
+        {
+          "id": 3,
+          "label": "Admin Dashboard & Authorization",
+          "style": "bottom-[29%] left-[7%]",
+          "delay": 1.5,
+          "xValue": 30,
+          "yValue": -30
+        },
+        {
+          "id": 4,
+          "label": "System Audit & User Management",
+          "style": "top-[38%] left-[2%]",
+          "delay": 2,
+          "xValue": 30,
+          "yValue": 0
+        },
+        {
+          "id": 5,
+          "label": "Configuration & Compliance Management",
+          "style": "top-[14%] left-[10%]",
+          "delay": 2.5,
+          "xValue": 30,
+          "yValue": 30
+        }
+      ]
+    },
+    "letsTalk": {
+      "title": "Ready to Launch Your Digital Wealth Platform?",
+      "description": "Let’s build a secure, compliant, and scalable investment experience — together."
+    }
+  }
+]

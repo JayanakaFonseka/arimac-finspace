@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1,
+    "identifier": "digital-kyc",
+    "name": "Digital KYC",
+    "title": "Ready to Upgrade to a Smarter, API-Driven KYC Solution?",
+    "description": "We offer fast and automated E-KYC to verify customer identities quickly and safely. It helps you onboard new users with less hassle and full compliance.",
+    "image": "/images/digital-kyc/kyc-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "KYC in 3 Easy Steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Scan an ID document",
+          "description": "Auto-capture via camera – no manual input",
+          "image": "/images/digital-kyc/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Take a quick selfie",
+          "description": "Facial recognition and liveness detection",
+          "image": "/images/digital-kyc/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Instant AI verification",
+          "description": "We compare and confirm identity instantly",
+          "image": "/images/digital-kyc/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why KYC?",
+      "title": "What sets our Digital KYC apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Instant Identity Verification",
+          "description": "Onboard users in seconds with AI-powered document and face matching.",
+          "image": "/images/digital-kyc/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Real-Time Risk Profiling",
+          "description": "Detect high-risk users instantly with intelligent risk scoring.",
+          "image": "/images/digital-kyc/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Audit-Ready Logging",
+          "description": "Every check is logged and timestamped for complete compliance traceability.",
+          "image": "/images/digital-kyc/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Secure & Scalable",
+          "description": "Built on cloud-native architecture with enterprise-grade encryption.",
+          "image": "/images/digital-kyc/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "identifier": "digital-wallet",
+    "name": "Digital wallet",
+    "title": "Why Rely on Cash When Digital Payments Offer More?",
+    "description": "We offer a secure digital wallet solution that allows easy money storage and quick payments. Perfect for boosting customer convenience and loyalty.",
+    "image": "/images/digital-wallet/digital-wallet-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Digital wallet in easy steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Add your cards",
+          "description": "Securely link debit/credit cards or load funds to your wallet.",
+          "image": "/images/digital-wallet/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Tap or Scan to Pay",
+          "description": "Make payments at stores, online, or peer-to-peer via QR",
+          "image": "/images/digital-wallet/steps/step-2.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why Digital wallet?",
+      "title": "What sets our Digital wallet apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Secure Contactless Payments",
+          "description": "Enables tap-to-pay and QR payments with multi-layer encryption.",
+          "image": "/images/digital-wallet/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Biometric Authentication",
+          "description": "Face ID, fingerprint, and PIN for transaction security.",
+          "image": "/images/digital-wallet/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Loyalty & Rewards Integration",
+          "description": "Personalized offers and reward point tracking.",
+          "image": "/images/digital-wallet/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Multi-Currency & Multi-Card Support",
+          "description": "Supports LKR + foreign currencies and multiple cards.",
+          "image": "/images/digital-wallet/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "identifier": "internet-banking",
+    "name": "Internet banking",
+    "title": "Is Your Internet Banking Platform Ready for What’s Next?",
+    "description": "We offer easy and secure internet banking that lets your customers access their accounts anytime, anywhere. Manage transfers, payments, and balances all in one place.",
+    "image": "/images/internet-banking/internet-banking-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Internet banking in 3 Easy Steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Login from any device",
+          "description": "Cross-platform access with responsive UI – web, tablet, or mobile.",
+          "image": "/images/internet-banking/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Access full banking features",
+          "description": "Check balances, transfer funds, manage cards, and more — all in one place.",
+          "image": "/images/internet-banking/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Stay secure and informed",
+          "description": "Get real-time alerts, high-speed performance, and multi-factor security.",
+          "image": "/images/internet-banking/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why Internet Banking?",
+      "title": "What sets our Internet Banking apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Responsive, User-Friendly Design",
+          "description": "Optimized UX across web and mobile interfaces.",
+          "image": "/images/internet-banking/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "High Performance & Security",
+          "description": "Fast load times, encrypted transactions, and multi-level authentication.",
+          "image": "/images/internet-banking/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Omnichannel Consistency",
+          "description": "Unified experience across web, mobile app, and branch.",
+          "image": "/images/internet-banking/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Secure & Scalable",
+          "description": "Built on cloud-native architecture with enterprise-grade encryption.",
+          "image": "/images/internet-banking/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "The AIA Customer Portal, developed by Arimac takes our valued customers on a secure and cohesive service experience journey. AIA globally and locally is focused on consistently seeking out digitization innovations and leveraging on technological advancements to stay ahead of competition and provide our customers with novel and pioneering levels of service. AIA chose to partner with Arimac, out of a host of providers who pitched for our bid to create the Customer Portal. Arimac won this project as they were the only Tech Company with the knowhow and expertise to build the software using Adobe Experience Manager which was a mandatory requirement for AIA.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "identifier": "merchant-portal",
+    "name": "Merchant Management Portal",
+    "title": "Need a Smarter Way to Automate Merchant Verification?",
+    "description": "We help you quickly add new merchants with easy, automatic checks and approvals.",
+    "image": "/images/merchant-portal/merchant-portal-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Merchant management portal in 3 Easy Steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Onboard in Minutes",
+          "description": "Quick login and registration flow for new merchants with guided steps.",
+          "image": "/images/merchant-portal/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Start Accepting Payments",
+          "description": "Enable QR payments, payment links, and track all transactions live.",
+          "image": "/images/merchant-portal/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Manage & Monitor with Ease",
+          "description": "Access insights, roles, orders, and settlements from one centralized dashboard.",
+          "image": "/images/merchant-portal/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why Merchant Management Portal?",
+      "title": "What sets our Merchant Management Portal apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Easy Merchant Onboarding",
+          "description": "Quick login and registration for new merchants with a simple, guided flow.",
+          "image": "/images/merchant-portal/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Account Recovery",
+          "description": "Secure and hassle-free password reset with the Forgot Password feature",
+          "image": "/images/merchant-portal/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "User & Role Management",
+          "description": "Manage users per merchant and assign role-based access controls.",
+          "image": "/images/merchant-portal/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Account Settings",
+          "description": "Manage personal/company profiles, bank accounts, and API integrations.",
+          "image": "/images/merchant-portal/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "identifier": "buy-now-pay-later",
+    "name": "Buy Now, Pay later",
+    "title": "Why Miss Out on Customers Who Prefer to Pay Later?",
+    "description": "We offer flexible Buy Now, Pay Later options that let your customers spread payments over time. This helps increase sales and improve customer satisfaction.",
+    "image": "/images/bnpl/bnpl-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "BNPL in 3 Easy Steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Get Instant Credit Approval",
+          "description": "Complete a quick KYC to receive instant eligibility and credit line.",
+          "image": "/images/bnpl/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Choose Installment Plan",
+          "description": "Select flexible payback options based on your budget and timeline.",
+          "image": "/images/bnpl/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Track Payments Seamlessly",
+          "description": "Monitor your dues and repayment status in real time, from the app.",
+          "image": "/images/bnpl/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why BNPL?",
+      "title": "What sets our BNPL apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Instant Credit Approval",
+          "description": "Real-time eligibility checks with minimal friction and fast onboarding.",
+          "image": "/images/bnpl/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Customizable Installment Plans",
+          "description": "Tailor repayment durations to match customer affordability.",
+          "image": "/images/bnpl/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Seamless Merchant Integrations",
+          "description": "Integrates easily with e-commerce and POS systems.",
+          "image": "/images/bnpl/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Real-Time Payment Tracking",
+          "description": "Customers get full visibility over upcoming dues and completed payments.",
+          "image": "/images/bnpl/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "identifier": "fraud-management-system",
+    "name": "Fraud Management",
+    "title": "Need a Better Way to Detect Suspicious Activity?",
+    "description": "Our Fraud Management System helps businesses detect and stop fraud quickly and easily.",
+    "image": "/images/fraud-management/fraud-management-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Real-Time Transaction Monitoring ",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Adaptive Threat Detection",
+          "description": "Automatically blocks known and new fraud.",
+          "image": "/images/fraud-management/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "False Positive Reduction",
+          "description": "Learns to avoid blocking good customers.",
+          "image": "/images/fraud-management/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Continuous Learning & Improvement",
+          "description": "Updates itself to catch new fraud tactics.",
+          "image": "/images/fraud-management/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why our fraud management?",
+      "title": "What Sets Sherlock Apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Advanced AI Technology",
+          "description": "Uses machine learning to detect both known and unknown fraud.",
+          "image": "/images/fraud-management/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Dynamic Adaptability",
+          "description": "Continuously evolves to counter new fraud tactics.",
+          "image": "/images/fraud-management/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "High Accuracy",
+          "description": "Reduces false positives to improve user experience.",
+          "image": "/images/fraud-management/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Real-Time Protection",
+          "description": "Immediate blocking of suspicious activities without delays.",
+          "image": "/images/fraud-management/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "identifier": "remittance",
+    "name": "Remittance",
+    "title": "Need a Faster, More Transparent Way to Handle Remittances?",
+    "description": "Our remittance platform enables banks and MTOs to process real-time, multi-currency transfers with built-in compliance and global coverage.",
+    "image": "/images/remittance/remittance-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Remitance in Easy Steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Send Money Instantly",
+          "description": "Transfer funds in real time to destinations worldwide with no delays.",
+          "image": "/images/remittance/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Flexible Delivery Options",
+          "description": "Recipients can receive money in their bank account, digital wallet, or as cash pickup.",
+          "image": "/images/remittance/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Track Every Transfer",
+          "description": "Monitor your transaction and recipient location in real time for full transparency.  ",
+          "image": "/images/remittance/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why our remittance?",
+      "title": "What Sets Our Remittance Platform Apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Real-Time Transfers",
+          "description": "Fast money movement anywhere, anytime",
+          "image": "/images/remittance/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Clear, Fair Pricing",
+          "description": "No hidden fees with transparent FX rates",
+          "image": "/images/remittance/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Flexible Payouts",
+          "description": "Multiple recipient options for convenience.",
+          "image": "/images/remittance/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Global Reach",
+          "description": "Supports multiple currencies and languages to serve diverse users",
+          "image": "/images/remittance/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "identifier": "loan-originated-system",
+    "name": "Loan originated system",
+    "title": "Is Your Loan Process Holding You Back?",
+    "description": "Our Loan Origination System helps banks process loans faster, safer, and smarter. From application to approval and disbursement, everything is automated, secure, and easy to manage—giving you more control, less paperwork, and happier customers",
+    "image": "/images/loan-originated-system/loan-originated-system-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Loan application in easy steps",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Apply & Upload",
+          "description": "Customers easily submit loan applications online with personal, income, and employment details—plus KYC and supporting documents",
+          "image": "/images/loan-originated-system/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Verify & Assess",
+          "description": "The system automatically verifies documents, checks credit scores, calculates risk, and assesses eligibility using built-in rules and ML models.",
+          "image": "/images/loan-originated-system/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Approve & Sign",
+          "description": "Applications flow through custom approval paths. Once approved, loan agreements are auto-generated and signed digitally with secure e-signatures.",
+          "image": "/images/loan-originated-system/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why our loan originated system?",
+      "title": "What sets our loan originated system make apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Fully Automated",
+          "description": "No paperwork. No delays. Just smooth, end-to-end processing.",
+          "image": "/images/loan-originated-system/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Smart Risk Checks",
+          "description": "AI-powered scoring for fast, fair loan decisions.",
+          "image": "/images/loan-originated-system/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Secure & Compliant",
+          "description": "Built-in KYC, AML, and enterprise-grade protection.",
+          "image": "/images/loan-originated-system/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Core Banking Ready",
+          "description": "Real-time integration with your existing systems.",
+          "image": "/images/loan-originated-system/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "identifier": "cooperate-management-solution",
+    "name": "Cooperate management solution",
+    "title": "Looking for a Smarter Way to Manage Your Company?",
+    "description": "Our Corporate Management Solution helps businesses manage teams, tasks, and processes in one easy platform.",
+    "image": "/images/cooperate-management-solution/cooperate-management-solution-overview.png",
+    "stepsData": {
+      "tagName": "How it works",
+      "title": "Easy Client Onboarding",
+      "steps": [
+        {
+          "id": 1,
+          "tagName": "Step 01",
+          "title": "Fast Approvals",
+          "description": "Handle requests and approvals automatically.",
+          "image": "/images/cooperate-management-solution/steps/step-1.png"
+        },
+        {
+          "id": 2,
+          "tagName": "Step 02",
+          "title": "Manage Cash Flow",
+          "description": "Keep track of money and payments in real time.",
+          "image": "/images/cooperate-management-solution/steps/step-2.png"
+        },
+        {
+          "id": 3,
+          "tagName": "Step 03",
+          "title": "Clear Reporting",
+          "description": "See all data and reports in one place.",
+          "image": "/images/cooperate-management-solution/steps/step-3.png"
+        }
+      ]
+    },
+    "benefitsData": {
+      "tagName": "Why our Cooperate management solution?",
+      "title": "What our Customer onboarding make apart",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "End-to-End Integration",
+          "description": "No paperwork. No delays. Just smooth, end-to-end processing.",
+          "image": "/images/cooperate-management-solution/benefits/benefit-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Smart Risk Checks",
+          "description": "AI-powered scoring for fast, fair loan decisions.",
+          "image": "/images/cooperate-management-solution/benefits/benefit-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Secure & Compliant",
+          "description": "Built-in KYC, AML, and enterprise-grade protection.",
+          "image": "/images/cooperate-management-solution/benefits/benefit-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Core Banking Ready",
+          "description": "Real-time integration with your existing systems.",
+          "image": "/images/cooperate-management-solution/benefits/benefit-4.png"
+        }
+      ]
+    },
+    "ourCustomers": {
+      "tagName": "Our Customers",
+      "title": "See what our clients have to say?",
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "VISA Global Innovation has been working with Arimac since June of 2019 as part of an important new product development initiative. We have valid MSA and maintenance agreement with Arimac. During this time Arimac has been a flexible partner, enabling us to achieve our targets in a timely manner. I'd also like to note that they go above and beyond to help us maneuver through complex issues during the product development and delivery process.",
+          "stars": 5,
+          "name": "Nicholas Kurlas",
+          "designation": "Senior Director - ",
+          "company": "Product Innovation, Visa",
+          "image": "/images/company-customers/visa/nicholas-kurlas.png",
+          "logo": "/home/clients/logos/visa.png"
+        },
+        {
+          "id": 2,
+          "comment": "They have successfully developed the wallet app solution for People's Bank and is currently engaged in various projects including developing of the online account opening solution for People's Bank. It is observed that the said company employs a dynamic architecture and multi-functional capabilities and has succeeded in delivering a comprehensive set of services throughout the project to ensure fruitful and effective delivery of the projects.",
+          "stars": 5,
+          "name": "Mangala Kariyawasam",
+          "designation": "Chief Digital Officer,",
+          "company": "People’s Bank",
+          "image": "/images/company-customers/peoples-bank/mangala-kariyawasam.png",
+          "logo": "/home/clients/logos/peoples-bank.png"
+        },
+        {
+          "id": 3,
+          "comment": "We're delighted to announce Arimac as our new digital partner for the next five years, leveraging their proven track record in executing major digital initiatives globally and locally. Collaborating with Softlogic, Arimac is spearheading the establishment of an integrated digital platform accessible through Softlogic's Super App - Softlogic One, facilitating seamless customer interactions and enabling a multi-loyalty program across all Softlogic Group Companies.",
+          "stars": 5,
+          "name": "Ashok Pathirage",
+          "designation": "Chairman,",
+          "company": "Softlogic Holdings . PLC",
+          "image": "/images/company-customers/softlogic/ashok-pathirage.png",
+          "logo": "/home/clients/logos/softlogic.png"
+        },
+        {
+          "id": 4,
+          "comment": "A revolutionary fintech platform, offering comprehensive financial solutions and insights for seamless management and growth.",
+          "stars": 5,
+          "name": "Umeshi De Fonseka",
+          "designation": "Director IT and ​Chief Technology Officer,",
+          "company": " AIA Sri Lanka",
+          "image": "/images/company-customers/aia/umeshi-fonseka.png",
+          "logo": "/home/clients/logos/aia.png"
+        }
+      ]
+    }
+  }
+]

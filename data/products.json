@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "identifier": "sherlock",
+    "name": "Fraud Management Portal",
+    "description": "Start your path to protecting your finances with our innovative fraud management tools. Anticipate risks and ensure a secure financial future.",
+    "image": "/images/products/sherlock/sherlock-overview.png",
+    "logo": "/logos/sherlock-logo.svg",
+    "features": [
+      {
+        "id": 1,
+        "name": "Fraud detection",
+        "description": "Detects and prevents fraudulent activities in real-time using machine learning and rule-based analysis. Helps businesses protect their assets and customers from suspicious behaviors.",
+        "image": "/images/products/sherlock/feature/feature-1.png"
+      },
+      {
+        "id": 2,
+        "name": "User Management",
+        "description": "This feature allows institutions to create and manage user roles with fine-grained permission controls. By restricting access to sensitive modules and data, it reduces the risk of insider threats and unauthorized actions. It also ensures accountability by tracking user activities.",
+        "image": "/images/products/sherlock/feature/feature-2.png"
+      },
+      {
+        "id": 3,
+        "name": "Transaction Management",
+        "description": "FrauxAI monitors, validates, and categorizes all financial transactions for inconsistencies or anomalies. It helps detect duplicate entries, unusual amounts, or deviations from customer behavior. This ensures smooth, secure, and compliant transaction flows across the platform.",
+        "image": "/images/products/sherlock/feature/feature-3.png"
+      },
+      {
+        "id": 4,
+        "name": "System Audit",
+        "description": "The system audit module logs every user action and system change in a centralized trail. It provides full visibility into who did what and when, which is essential for regulatory compliance and internal investigations. This builds trust and transparency in operations.",
+        "image": "/images/products/sherlock/feature/feature-4.png"
+      },
+      {
+        "id": 5,
+        "name": "Reports",
+        "description": "FrauxAI generates customizable, data-rich reports covering fraud trends, flagged cases, user activity, and system performance. These insights help compliance teams, auditors, and leadership make informed decisions. Reports can also be exported for regulatory filings or internal reviews.",
+        "image": "/images/products/sherlock/feature/feature-5.png"
+      }
+    ],
+    "benefits": [
+      {
+        "id": 1,
+        "name": "Prevent Transaction Fraud in Real-Time",
+        "description": "Instantly detect and block suspicious activities, addressing customers' fears of unauthorized transactions and safeguarding financial integrity.",
+        "image": "/images/products/sherlock/benefits/benefit-1.svg"
+      },
+      {
+        "id": 2,
+        "name": "Strengthen Customer Trust",
+        "description": "Secure every customer interaction by providing robust fraud protection, directly addressing trust issues prevalent in digital financial transactions.",
+        "image": "/images/products/sherlock/benefits/benefit-2.svg"
+      },
+      {
+        "id": 3,
+        "name": "Improve Transaction Transparency",
+        "description": "Offer clear, detailed insights into every transaction, addressing customer uncertainty and fostering stronger customer-institution relationships through transparency.",
+        "image": "/images/products/sherlock/benefits/benefit-3.svg"
+      }
+    ],
+    "ourCustomers": {
+      "id": 1,
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "Since implementing this fraud management solution, we've seen transaction fraud rates plummet. Real-time detection has genuinely improved customer confidence.",
+          "company": "VP of Risk Management",
+          "designation": "National Bank",
+          "image": "/images/products/sherlock/customer-feedback/fraud-feedback-1.jpg"
+        },
+        {
+          "id": 2,
+          "comment": "Automated compliance monitoring has completely streamlined our regulatory processes. We're now saving considerable time previously spent on audits and compliance checks.",
+          "company": "FinTrust Solutions",
+          "designation": "Compliance Manager",
+          "image": "/images/products/sherlock/customer-feedback/fraud-feedback-2.jpg"
+        },
+        {
+          "id": 3,
+          "comment": "Our customers appreciate the increased transparency this solution provides for their transactions. Their trust in our services has notably improved, leading to greater retention and satisfaction.",
+          "company": "SecureFinance Ltd",
+          "designation": "Digital Banking Lead",
+          "image": "/images/products/sherlock/customer-feedback/fraud-feedback-3.jpg"
+        }
+      ],
+      "images": [
+        "/images/products/sherlock/customer-feedback/fraud-feedback-main.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-1.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-2.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-3.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-4.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-5.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-6.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-7.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "identifier": "pay-now",
+    "name": "PayNow – Fast, Secure, and Scalable Payments for Every Business  ",
+    "description": "PayNow is a smart and easy way for businesses to take payments online. It’s fast, safe, and works with many currencies. With low fees and helpful features like repeat payments and card offers, PayNow helps your business grow smoothly.",
+    "image": "/images/products/paynow/paynow-overview.png",
+    "logo": "/logos/paynow-logo.svg",
+    "features": [
+      {
+        "id": 1,
+        "name": "A2A online payments",
+        "description": "Take digital payments from customers via cards and other supported methods.",
+        "image": "/images/products/paynow/feature/feature-1.png"
+      },
+      {
+        "id": 2,
+        "name": "Subscriptions",
+        "description": "Create automated billing plans with free trials and recurring charges.",
+        "image": "/images/products/paynow/feature/feature-2.png"
+      },
+      {
+        "id": 3,
+        "name": "Multiple Currency Handling",
+        "description": "Receive payments in both LKR and USD to support local and international customers.",
+        "image": "/images/products/paynow/feature/feature-3.png"
+      },
+      {
+        "id": 4,
+        "name": "Authorization & Capture",
+        "description": "Allow pre-authorization of payments and capture funds at a later time.",
+        "image": "/images/products/paynow/feature/feature-4.png"
+      },
+      {
+        "id": 5,
+        "name": "Access the Platform on Any Device",
+        "description": "Use PayNow on both mobile and desktop, with a smooth and responsive interface.  ",
+        "image": "/images/products/paynow/feature/feature-5.png"
+      }
+    ],
+    "benefits": [
+      {
+        "id": 1,
+        "name": "Prevent Transaction Fraud in Real-Time",
+        "description": "Instantly detect and block suspicious activities, addressing customers' fears of unauthorized transactions and safeguarding financial integrity.",
+        "image": "/images/products/paynow/benefits/benefit-1.svg"
+      },
+      {
+        "id": 2,
+        "name": "Strengthen Customer Trust",
+        "description": "Secure every customer interaction by providing robust fraud protection, directly addressing trust issues prevalent in digital financial transactions.",
+        "image": "/images/products/paynow/benefits/benefit-2.svg"
+      },
+      {
+        "id": 3,
+        "name": "Improve Transaction Transparency",
+        "description": "Offer clear, detailed insights into every transaction, addressing customer uncertainty and fostering stronger customer-institution relationships through transparency.",
+        "image": "/images/products/paynow/benefits/benefit-3.svg"
+      }
+    ],
+    "ourCustomers": {
+      "id": 1,
+      "feedback": [
+        {
+          "id": 1,
+          "comment": "Since implementing this fraud management solution, we've seen transaction fraud rates plummet. Real-time detection has genuinely improved customer confidence.",
+          "company": "VP of Risk Management",
+          "designation": "National Bank",
+          "image": "/images/products/paynow/customer-feedback/fraud-feedback-1.jpg"
+        },
+        {
+          "id": 2,
+          "comment": "Automated compliance monitoring has completely streamlined our regulatory processes. We're now saving considerable time previously spent on audits and compliance checks.",
+          "company": "FinTrust Solutions",
+          "designation": "Compliance Manager",
+          "image": "/images/products/paynow/customer-feedback/fraud-feedback-2.jpg"
+        },
+        {
+          "id": 3,
+          "comment": "Our customers appreciate the increased transparency this solution provides for their transactions. Their trust in our services has notably improved, leading to greater retention and satisfaction.",
+          "company": "SecureFinance Ltd",
+          "designation": "Digital Banking Lead",
+          "image": "/images/products/paynow/customer-feedback/fraud-feedback-3.jpg"
+        }
+      ],
+      "images": [
+        "/images/products/paynow/customer-feedback/fraud-feedback-main.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-1.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-2.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-3.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-4.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-5.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-6.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-7.jpg"
+      ]
+    }
+  }
+]
