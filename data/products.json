@@ -63,24 +63,24 @@
       "feedback": [
         {
           "id": 1,
-          "comment": "Since implementing this fraud management solution, we've seen transaction fraud rates plummet. Real-time detection has genuinely improved customer confidence.",
+          "comment": "With experience building digital solutions across Asia-Pacific and beyond, we tailor our payment platform to meet both global and regional business needs.",
           "company": "VP of Risk Management",
           "designation": "National Bank",
-          "image": "/images/products/sherlock/customer-feedback/fraud-feedback-1.jpg"
+          "image": "/images/products/paynow/customer-feedback/fraud-feedback-1.jpg"
         },
         {
           "id": 2,
-          "comment": "Automated compliance monitoring has completely streamlined our regulatory processes. We're now saving considerable time previously spent on audits and compliance checks.",
+          "comment": "From product managers to UX designers, every role is aligned to create seamless, user-friendly, and intuitive payment experiences.",
           "company": "FinTrust Solutions",
           "designation": "Compliance Manager",
-          "image": "/images/products/sherlock/customer-feedback/fraud-feedback-2.jpg"
+          "image": "/images/products/paynow/customer-feedback/fraud-feedback-2.jpg"
         },
         {
           "id": 3,
-          "comment": "Our customers appreciate the increased transparency this solution provides for their transactions. Their trust in our services has notably improved, leading to greater retention and satisfaction.",
+          "comment": "Our leadership team includes former executives from top tech and financial firms who are passionate about driving the future of digital payments.",
           "company": "SecureFinance Ltd",
           "designation": "Digital Banking Lead",
-          "image": "/images/products/sherlock/customer-feedback/fraud-feedback-3.jpg"
+          "image": "/images/products/paynow/customer-feedback/fraud-feedback-3.jpg"
         }
       ],
       "images": [
@@ -89,7 +89,7 @@
         "/images/products/sherlock/customer-feedback/fraud-feedback-2.jpg",
         "/images/products/sherlock/customer-feedback/fraud-feedback-3.jpg",
         "/images/products/sherlock/customer-feedback/fraud-feedback-4.jpg",
-        "/images/products/sherlock/customer-feedback/fraud-feedback-5.jpg",
+        "/images/products/sherlock/customer-feedback/fraud-feedback-5.png",
         "/images/products/sherlock/customer-feedback/fraud-feedback-6.jpg",
         "/images/products/sherlock/customer-feedback/fraud-feedback-7.jpg"
       ]
@@ -159,21 +159,21 @@
       "feedback": [
         {
           "id": 1,
-          "comment": "Since implementing this fraud management solution, we've seen transaction fraud rates plummet. Real-time detection has genuinely improved customer confidence.",
+          "comment": "With experience building digital solutions across Asia-Pacific and beyond, we tailor our payment platform to meet both global and regional business needs.",
           "company": "VP of Risk Management",
           "designation": "National Bank",
           "image": "/images/products/paynow/customer-feedback/fraud-feedback-1.jpg"
         },
         {
           "id": 2,
-          "comment": "Automated compliance monitoring has completely streamlined our regulatory processes. We're now saving considerable time previously spent on audits and compliance checks.",
+          "comment": "From product managers to UX designers, every role is aligned to create seamless, user-friendly, and intuitive payment experiences.",
           "company": "FinTrust Solutions",
           "designation": "Compliance Manager",
           "image": "/images/products/paynow/customer-feedback/fraud-feedback-2.jpg"
         },
         {
           "id": 3,
-          "comment": "Our customers appreciate the increased transparency this solution provides for their transactions. Their trust in our services has notably improved, leading to greater retention and satisfaction.",
+          "comment": "Our leadership team includes former executives from top tech and financial firms who are passionate about driving the future of digital payments.",
           "company": "SecureFinance Ltd",
           "designation": "Digital Banking Lead",
           "image": "/images/products/paynow/customer-feedback/fraud-feedback-3.jpg"
@@ -185,7 +185,7 @@
         "/images/products/paynow/customer-feedback/fraud-feedback-2.jpg",
         "/images/products/paynow/customer-feedback/fraud-feedback-3.jpg",
         "/images/products/paynow/customer-feedback/fraud-feedback-4.jpg",
-        "/images/products/paynow/customer-feedback/fraud-feedback-5.jpg",
+        "/images/products/paynow/customer-feedback/fraud-feedback-5.png",
         "/images/products/paynow/customer-feedback/fraud-feedback-6.jpg",
         "/images/products/paynow/customer-feedback/fraud-feedback-7.jpg"
       ]

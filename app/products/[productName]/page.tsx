@@ -148,23 +148,25 @@ export default async function ProductPage({ params }: Props) {
       {/* Our customers */}
       <ScrollReveal>
         <div id="our-customers" className="flex flex-col scroll-mt-20">
-          <div className="grid grid-col-1 md:grid-cols-2 items-center mt-10 gap-10">
-            <div className="my-10">
-              <GradiantTag title="Our customers" />
-              <p className="font-bold text-4xl text-black mt-8">
-                Don't Take Our Word For It. Customers Say It Best
-              </p>
-              <p className="font-normal text-base text-[#74767B] mt-3">
-                Get to know the incredible businesses that have achieved success
-                with Finspace
-              </p>
-              <button className="px-4 py-3 bg-white text-[#158D54] font-normal text-lg rounded-full w-[227px] max-w-[227px] border-1 border-[#158D54] my-10">
-                View all
-              </button>
-              <FeedbackCard
-                key={product.ourCustomers.feedback[0].id}
-                {...product.ourCustomers.feedback[0]}
-              />
+          <div className="grid grid-col-1 md:grid-cols-2 items-center mt-10 gap-10 ">
+            <div className="flex flex-col h-full justify-between">
+              <div className="flex flex-col my-10 h-full justify-center">
+                <GradiantTag title="The Minds Behind the Magic" />
+                <p className="font-bold text-4xl text-black mt-8">
+                  Built by Fintech Innovators
+                </p>
+                <p className="font-normal text-base text-[#74767B] mt-3">
+                  Our experienced product, security, and engineering teams are
+                  dedicated to building secure, scalable, and future-ready
+                  payment systems for modern businesses.
+                </p>
+              </div>
+              <div className="h-fit">
+                <FeedbackCard
+                  key={product.ourCustomers.feedback[0].id}
+                  {...product.ourCustomers.feedback[0]}
+                />
+              </div>
             </div>
             <ClusteredImageDisplay images={product.ourCustomers.images} />
           </div>

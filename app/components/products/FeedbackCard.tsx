@@ -13,10 +13,10 @@ export const FeedbackCard = ({
   return (
     <div
       key={`customer-feedback-${id}`}
-      className="p-6 rounded-4xl shadow-md bg-white border-1 border-[#158D54]"
+      className="p-6 rounded-4xl shadow-md bg-white border-1 border-[#5953E8] mt-10"
     >
-      <p className="text-base font-normal text-gray-700 mb-4">{comment}</p>
-      <div className="flex items-center gap-4">
+      <p className="text-base font-normal text-gray-700">{comment}</p>
+      {/* <div className="flex items-center gap-4">
         <Image
           src={image}
           alt={`${company} - ${designation}`}
@@ -28,7 +28,7 @@ export const FeedbackCard = ({
           <p className="text-base font-semibold text-black">{company}</p>
           <p className="text-sm font-normal text-[#74767B]">{designation}</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
