@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-[#F5F5FF] p-10 max-w-[1376px] mx-auto">
+    <div className="bg-[#F5F5FF] p-10 w-full mx-auto">
       <div className="grid grid-cols-3 md:grid-cols-5 gap-6 border-b border-[#c4c4c4] pb-20">
         <div className="flex flex-col">
           <p className="text-base font-semibold text-black">Arimac Finspace</p>

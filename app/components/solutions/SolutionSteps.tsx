@@ -18,7 +18,7 @@ export const SolutionSteps = ({ steps }: Props) => {
             key={step.id}
             className={`grid grid-cols-1 md:grid-cols-2 gap-2 items-center mt-10 ${
               isOdd ? "md:[&>*:first-child]:order-2" : ""
-            } ${index > 0 && "md:-mt-20"}`}
+            }`}
           >
             <div>
               <GradiantBorderTag title={step.tagName} />
