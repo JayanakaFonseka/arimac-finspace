@@ -23,7 +23,7 @@ const slides = [
         we’ve led FinTech innovation — not by watching trends, but by shaping
         them. With products like{" "}
         <span className="text-[#158D54] font-bold text-base">Sherlock</span> and{" "}
-        <span className="text-[#158D54] font-bold text-base">Sherlock</span>,
+        <span className="text-[#158D54] font-bold text-base">PayNow</span>,
         we’re delivering future-ready solutions that are already making an
         impact. Backed by a passionate team and a proven track record, we invite
         you to explore what we’ve built and imagine what we can create together.
@@ -64,12 +64,11 @@ const slides = [
         we’ve led FinTech innovation — not by watching trends, but by shaping
         them. With products like{" "} */}
         <span className="text-[#158D54] font-bold text-base">Sherlock</span> and{" "}
-        <span className="text-[#158D54] font-bold text-base">Sherlock</span>,
-        are not just concepts; they’re live, proven platforms born from
-        operational excellence and execution-driven culture. Behind every
-        milestone is a team that’s agile, accountable, and committed to doing
-        things right. We don’t just talk about the future; we build it, one
-        solution at a time.
+        <span className="text-[#158D54] font-bold text-base">PayNow</span>, are
+        not just concepts; they’re live, proven platforms born from operational
+        excellence and execution-driven culture. Behind every milestone is a
+        team that’s agile, accountable, and committed to doing things right. We
+        don’t just talk about the future; we build it, one solution at a time.
       </p>
       <div className="flex flex-row mt-4">
         <div className="flex flex-col justify-end mr-5">

@@ -54,7 +54,7 @@ export default async function AboutFinspace() {
                 </span>{" "}
                 and{" "}
                 <span className="text-[#4F4F4F] font-bold text-base">
-                  Sherlock
+                  PayNow
                 </span>
                 , combined with our expert solutions , are transforming the
                 FinTech landscape. Partner with us to build the technology and
@@ -79,25 +79,16 @@ export default async function AboutFinspace() {
             />
             <div className="flex flex-col justify-center">
               <p className="text-black font-bold text-4xl">
-                Our mission is clear to empower businesses with powerful,
-                scalable FinTech platforms
+                What We Build, Power, and Simplify in Fintech
               </p>
               <p className="text-[#4F4F4F] font-normal text-base mt-10">
-                With over 14 years of industry expertise, we develop custom
-                platforms, innovative products, and end-to-end solutions that
-                help companies innovate faster, grow smarter, and deliver
-                seamless payment and financial experiences. Our flagship
-                products like{" "}
-                <span className="text-[#4F4F4F] font-bold text-base">
-                  Sherlock
-                </span>{" "}
-                and{" "}
-                <span className="text-[#4F4F4F] font-bold text-base">
-                  Sherlock
-                </span>
-                , combined with our expert solutions , are transforming the
-                FinTech landscape. Partner with us to build the technology and
-                solutions that power tomorrow’s financial services.
+                We develop scalable, secure fintech platforms tailored to your
+                business needs and offer ready-to-deploy products that
+                accelerate your digital finance journey. Our team provides
+                custom solutions to solve complex fintech challenges while
+                simplifying digital payments, integrations, and customer
+                onboarding. Whether you're a startup or an enterprise, we
+                support your growth with agile, future-proof technology.
               </p>
             </div>
           </div>
