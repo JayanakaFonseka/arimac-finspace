@@ -69,7 +69,7 @@ export const solutions: NavItem[] = [
     route: "/solutions/buy-now-pay-later",
     image: "/header/buy-now-pay-later.png",
     heading: "Buy now and pay later",
-    description: "Empower your customers. Strengthen your cash flow.",
+    description: "Offer instant credit at checkout with our BNPL platform.",
   },
   {
     name: "Fraud management system",
