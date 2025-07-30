@@ -69,8 +69,8 @@ export default async function ProductPage({ params }: Props) {
             description={product.description}
           />
           <div className="flex-row mt-8">
-            <LetsTalkButton btnStyle="px-4 py-3 bg-[#158D54] text-white font-normal text-lg rounded-full w-[227px] max-w-[227px] mr-4 mb-4" />
-            <BookADemoButton btnStyle="px-4 py-3 bg-white text-[#158D54] font-normal text-lg rounded-full w-[227px] max-w-[227px] border-1 border-[#158D54]" />
+            <LetsTalkButton btnStyle="px-4 py-3 bg-[#158D54] text-white font-normal text-lg rounded-full w-[227px] max-w-[227px] mr-4 mb-4 cursor-pointer" />
+            <BookADemoButton btnStyle="px-4 py-3 bg-white text-[#158D54] font-normal text-lg rounded-full w-[227px] max-w-[227px] border-1 border-[#158D54] cursor-pointer" />
           </div>
         </div>
         <SlideFadeWrapper keyId={product.id} className="w-full">

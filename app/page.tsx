@@ -42,7 +42,7 @@ export default function Home() {
             management and growth. Have questions or need support? Contact us to
             explore how we can help.
           </p>
-          <LetsTalkButton btnStyle="p-4 bg-[#158D54] text-white rounded-full text-lg font-normal w-[290px] mt-10" />
+          <LetsTalkButton btnStyle="p-4 bg-[#158D54] text-white rounded-full text-lg font-normal w-[290px] mt-10 cursor-pointer" />
         </div>
       </ScrollReveal>
     </div>

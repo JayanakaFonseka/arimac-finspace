@@ -72,7 +72,7 @@ export default function CompanyDropdown({ items, onClose, style }: Props) {
           </p>
           <button
             onClick={handleExplore}
-            className="bg-transparent text-[#158D54] font-medium text-base rounded-full w-fit border-1 border-[#158D54] px-6 py-2 mt-4"
+            className="bg-transparent text-[#158D54] font-medium text-base rounded-full w-fit border-1 border-[#158D54] px-6 py-2 mt-4 cursor-pointer"
           >
             Explore now
           </button>

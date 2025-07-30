@@ -125,7 +125,7 @@ export default function Footer() {
             Contact our team for tailored solutions and support. We're here to
             assist you.
           </p>
-          <LetsTalkButton btnStyle="px-4 py-2 bg-[#158D54] text-white rounded-full text-sm max-w-[186px] mt-6" />
+          <LetsTalkButton btnStyle="px-4 py-2 bg-[#158D54] text-white rounded-full text-sm max-w-[186px] mt-6 cursor-pointer" />
         </div>
       </div>
       <div className="flex items-center justify-between pt-6 w-full gap-6">

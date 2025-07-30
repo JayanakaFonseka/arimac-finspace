@@ -104,10 +104,10 @@ export default function FintechHero() {
           transition={{ delay: 2.5, duration: 0.6 }}
           className="flex-row mt-8 md:min-w-[355px]"
         >
-          <LetsTalkButton btnStyle="px-4 py-3 bg-gradient-to-r from-[#3B36AB] to-[#1EC677] text-white font-normal text-lg rounded-full w-[169px] max-w-[169px] mr-4 mb-4" />
+          <LetsTalkButton btnStyle="px-4 py-3 bg-gradient-to-r from-[#3B36AB] to-[#1EC677] text-white font-normal text-lg rounded-full w-[169px] max-w-[169px] mr-4 mb-4 cursor-pointer" />
           <button
             onClick={() => router.push("/contact-us")}
-            className="relative inline-block w-[169px] max-w-[169px] px-4 py-3 text-lg font-normal rounded-full z-10
+            className="relative inline-block w-[169px] max-w-[169px] px-4 py-3 text-lg font-normal rounded-full z-10 cursor-pointer
               before:content-[''] before:absolute before:inset-0 before:rounded-full before:p-[2px] before:bg-gradient-to-r before:from-[#3B36AB] before:to-[#1EC677] before:z-[-2]
               after:content-[''] after:absolute after:inset-[2px] after:rounded-full after:bg-[#F8FAFC] after:z-[-1]"
           >

@@ -97,7 +97,7 @@ export default function VisaFeaturesSlider() {
           <button
             key={feature.id}
             onClick={() => switchFeature(index)}
-            className={`px-4 py-2 rounded-lg text-base font-normal transition ${
+            className={`px-4 py-2 rounded-lg text-base font-normal transition cursor-pointer ${
               index === activeIndex
                 ? "bg-[#152883] text-white"
                 : "bg-white text-black"

@@ -46,7 +46,7 @@ export default function FeaturesSlider({ features }: Props) {
           <button
             key={feature.id}
             onClick={() => switchFeature(index)}
-            className={`px-4 py-2 rounded-lg text-base font-normal transition ${
+            className={`px-4 py-2 rounded-lg text-base font-normal transition cursor-pointer ${
               index === activeIndex
                 ? "bg-[#158D54] text-white"
                 : "bg-white text-black"

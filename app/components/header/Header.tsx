@@ -121,14 +121,14 @@ export default function Header() {
           {menuItems.map((item) => (
             <div
               key={item}
-              className="relative flex flex-row gap-2 min-w-[110px]"
+              className="relative flex flex-row gap-2 min-w-[110px] cursor-pointer"
               onMouseEnter={() => {
                 setHoveredItem(item);
                 updateDropdownRect();
               }}
             >
               <button
-                className={`text-base font-medium text-[#2c2c2c] ${
+                className={`text-base font-medium text-[#2c2c2c] cursor-pointer ${
                   hoveredItem === item && "text-[#158D54] font-semibold"
                 }`}
               >
@@ -145,7 +145,7 @@ export default function Header() {
         </div>
 
         {/* CTA */}
-        <LetsTalkButton btnStyle="px-4 py-2 bg-[#158D54] text-white rounded-full text-sm" />
+        <LetsTalkButton btnStyle="px-4 py-2 bg-[#158D54] text-white rounded-full text-sm cursor-pointer" />
       </div>
 
       {/* Portal Dropdown */}
