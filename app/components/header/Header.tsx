@@ -105,7 +105,7 @@ export default function Header() {
       <div className="flex items-center justify-between px-6 py-4 w-full">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <Link href="/">
+          <Link href="/" onClick={handleCloseDropdown}>
             <Image
               src="/logos/arimac-finspace-logo.svg"
               alt="Logo"

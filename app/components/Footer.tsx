@@ -104,7 +104,7 @@ export default function Footer() {
             href="/solutions/remittance"
             className="text-base font-normal text-[#74767B] mt-2"
           >
-            Remittence
+            Remittance
           </Link>
           <Link
             href="/solutions/loan-originated-system"

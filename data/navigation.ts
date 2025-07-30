@@ -47,15 +47,14 @@ export const solutions: NavItem[] = [
     route: "/solutions/digital-kyc",
     image: "/header/digital-kyc.png",
     heading: "Digital KYC",
-    description:
-      "Start your path to protecting your finances with our innovative fraud management tools.",
+    description: "Verify customers in minutes with our seamless e-KYC process.",
   },
   {
     name: "Internet banking",
     route: "/solutions/internet-banking",
     image: "/header/internet-banking.png",
     heading: "Internet banking",
-    description: "Modern banking made accessible—anytime, anywhere",
+    description: "Modern banking made accessible—anytime, anywhere.",
   },
   {
     name: "Merchant management portal",
@@ -63,14 +62,14 @@ export const solutions: NavItem[] = [
     image: "/header/merchant-portal.png",
     heading: "Merchant management portal",
     description:
-      "One dashboard for merchants to manage sales, payments, and insights",
+      "One dashboard for merchants to manage sales, payments, and insights.",
   },
   {
     name: "Buy now and pay later",
     route: "/solutions/buy-now-pay-later",
     image: "/header/buy-now-pay-later.png",
     heading: "Buy now and pay later",
-    description: "Empower Your Customers. Strengthen Your Cash Flow",
+    description: "Empower your customers. Strengthen your cash flow.",
   },
   {
     name: "Fraud management system",
@@ -93,7 +92,7 @@ export const solutions: NavItem[] = [
     route: "/solutions/loan-originated-system",
     image: "/header/loan-originated-system.png",
     heading: "Loan originated system",
-    description: "Digitize and streamline your entire loan approval lifecycle",
+    description: "Digitize and streamline your entire loan approval lifecycle.",
   },
   {
     name: "Cooperate management solution",
@@ -101,7 +100,7 @@ export const solutions: NavItem[] = [
     image: "/header/cooperate-management-solution.png",
     heading: "Cooperate management solution",
     description:
-      "Centralize enterprise operations with scalable digital oversight tools",
+      "Centralize enterprise operations with scalable digital oversight tools.",
   },
 ];
 
