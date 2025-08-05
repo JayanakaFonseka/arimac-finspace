@@ -12,6 +12,7 @@ import FeedbackCardCarousel from "@/app/components/solutions/FeedbackCardCarouse
 import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import { BookADemoButton } from "@/app/components/common/BookADemoButton";
 import ScrollReveal from "@/app/components/common/ScrollReveal";
+import FeedbackCardCarouselMobile from "@/app/components/mobile/solutions/FeedbackCardCarouselMobile";
 
 type Props = {
   params: Promise<{
@@ -31,21 +32,24 @@ export default async function SolutionPage({ params }: Props) {
       {/* Overview */}
       <div
         id="overview"
-        className="grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-6"
+        className="grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-6 mt-6"
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center md:items-start text-center md:text-start">
           <GradiantBorderTag title={solution.name} />
           <FadeInTextBlock
             title={solution.title}
             description={solution.description}
-            titleStyle="text-5xl font-bold text-black mt-6"
+            titleStyle="text-[32px] md:text-5xl font-bold text-black mt-3 md:mt-6"
           />
-          <div className="flex-row mt-8">
-            <LetsTalkButton btnStyle="px-4 py-3 bg-[#158D54] text-white font-normal text-lg rounded-full w-[227px] max-w-[227px] mr-4 mb-4 cursor-pointer" />
-            <BookADemoButton btnStyle="px-4 py-3 bg-white text-[#158D54] font-normal text-lg rounded-full w-[227px] max-w-[227px] border-1 border-[#158D54] cursor-pointer" />
+          <div className="flex-row mt-8 w-full">
+            <LetsTalkButton btnStyle="px-4 py-3 bg-[#158D54] text-white font-normal text-[14px] md:text-lg rounded-full w-full md:w-[227px] md:max-w-[227px] md:mr-4 mb-4 cursor-pointer" />
+            <BookADemoButton btnStyle="px-4 py-3 bg-white text-[#158D54] font-normal text-[14px] md:text-lg rounded-full w-full md:w-[227px] md:max-w-[227px] border-1 border-[#158D54] cursor-pointer -mt-1 md:mt-0" />
           </div>
         </div>
-        <SlideFadeWrapper keyId={solution.id} className="w-full mt-10">
+        <SlideFadeWrapper
+          keyId={solution.id}
+          className="hidden md:block w-full mt-10"
+        >
           <Image
             src={solution.image}
             alt="Logo"
@@ -58,9 +62,9 @@ export default async function SolutionPage({ params }: Props) {
 
       {/* How it works */}
       <ScrollReveal>
-        <div id="features" className="flex flex-col items-center mt-32">
+        <div id="features" className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title={solution.stepsData.tagName} />
-          <p className="font-bold text-4xl text-black mt-5">
+          <p className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             {solution.stepsData.title}
           </p>
           <SolutionSteps steps={solution.stepsData.steps} />
@@ -69,9 +73,9 @@ export default async function SolutionPage({ params }: Props) {
 
       {/* Benefits */}
       <ScrollReveal>
-        <div id="benefits" className="flex flex-col items-center mt-32">
+        <div id="benefits" className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title={solution.benefitsData.tagName} />
-          <p className="font-bold text-4xl text-black mt-5">
+          <p className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             {solution.benefitsData.title}
           </p>
           <BenefitImageGrid benefits={solution.benefitsData.benefits} />
@@ -80,25 +84,32 @@ export default async function SolutionPage({ params }: Props) {
 
       {/* Clients */}
       <ScrollReveal>
-        <div id="clients" className="flex flex-col items-center mt-32">
+        <div id="clients" className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title={solution.ourCustomers.tagName} />
-          <p className="font-bold text-4xl text-black mt-5">
+          <p className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             {solution.ourCustomers.title}
           </p>
-          <FeedbackCardCarousel />
+          <div className="hidden md:block">
+            <FeedbackCardCarousel />
+          </div>
+          <div className="md:hidden">
+            <FeedbackCardCarouselMobile />
+          </div>
         </div>
       </ScrollReveal>
 
       {/* Contact us */}
       <ScrollReveal>
-        <div className="flex flex-col items-center mt-32">
+        <div className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title="Contact us" />
-          <p className="font-bold text-4xl text-black mt-8">
+          <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-8 text-center md:text-start">
             Lets's Chat, Reach Out to Us
           </p>
-          <div className="flex flex-col rounded-4xl p-8 md:min-w-[660px] shadow-md my-16">
-            <p className="text-2xl font-semibold text-black">Get in touch</p>
-            <p className="text-base font-normal text-[#74767B] mt-2">
+          <div className="flex flex-col rounded-4xl p-4 md:p-8 md:min-w-[660px] shadow-md my-8 md:my-16">
+            <p className="text-base md:text-2xl font-semibold text-black">
+              Get in touch
+            </p>
+            <p className="text-sm md:text-base font-normal text-[#74767B] mt-1 md:mt-2">
               You can reach us anytime
             </p>
             <ContactUsForm />

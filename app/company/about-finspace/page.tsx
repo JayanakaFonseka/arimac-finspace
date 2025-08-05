@@ -10,15 +10,18 @@ export default async function AboutFinspace() {
   return (
     <div className="flex flex-col">
       {/* Overview */}
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="flex flex-col justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-6 md:mt-0">
+        <div className="flex flex-col justify-center items-center md:items-start">
           <GradiantBorderTag title="About Finspace" />
           <FadeInTextBlock
             title="We are the next-generation FinTech builders, creating real, scalable solutions where others offer only buzzwords."
-            titleStyle="text-4xl font-bold text-black mt-6"
+            titleStyle="text-[32px] md:text-4xl font-bold text-black mt-3 md:mt-6 text-center md:text-start"
           />
         </div>
-        <SlideFadeWrapper keyId="finspace-overview" className="w-full">
+        <SlideFadeWrapper
+          keyId="finspace-overview"
+          className="hidden md:block w-full"
+        >
           <Image
             src="/about-finspace/overview.png"
             alt="Logo"
@@ -36,24 +39,24 @@ export default async function AboutFinspace() {
 
       {/* Mission */}
       <ScrollReveal>
-        <div className="flex flex-col mt-32 bg-[radial-gradient(ellipse_at_center,_#4944C959_0%,_transparent_60%)]">
+        <div className="flex flex-col mt-8 md:mt-32 bg-[radial-gradient(ellipse_at_center,_#4944C959_0%,_transparent_60%)] border-2 p-4 rounded-2xl">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-10">
-              <p className="text-black font-bold text-4xl">
+              <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
                 Our mission is clear to empower businesses with powerful,
                 scalable FinTech platforms
               </p>
-              <p className="text-[#4F4F4F] font-normal text-base mt-10">
+              <p className="text-[#4F4F4F] font-normal text-[12px] md:text-base mt-8 md:mt-10 text-center md:text-start">
                 With over 14 years of industry expertise, we develop custom
                 platforms, innovative products, and end-to-end solutions that
                 help companies innovate faster, grow smarter, and deliver
                 seamless payment and financial experiences. Our flagship
                 products like{" "}
-                <span className="text-[#4F4F4F] font-bold text-base">
+                <span className="text-[#4F4F4F] font-bold text-[12px] md:text-base">
                   Sherlock
                 </span>{" "}
                 and{" "}
-                <span className="text-[#4F4F4F] font-bold text-base">
+                <span className="text-[#4F4F4F] font-bold text-[12px] md:text-base">
                   PayNow
                 </span>
                 , combined with our expert solutions , are transforming the
@@ -62,26 +65,35 @@ export default async function AboutFinspace() {
               </p>
             </div>
             <Image
-              src="/about-finspace/group-image-1.png"
+              src="/about-finspace/group-image-3.png"
               alt="frame1"
               width={717}
               height={546}
-              className="object-cover h-auto"
+              className="hidden md:block object-cover h-auto"
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-20">
+          <div className="flex md:hidden mt-[44px] justify-center">
+            <Image
+              src="/about-finspace/group-image-3.png"
+              alt="frame1"
+              width={343}
+              height={200}
+              className="object-cover h-auto rounded-2xl"
+            />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-[44px] md:mt-20">
             <Image
               src="/about-finspace/group-image-2.png"
               alt="frame1"
               width={717}
               height={546}
-              className="object-cover h-auto md:pr-10"
+              className="hidden md:block object-cover h-auto md:pr-10"
             />
             <div className="flex flex-col justify-center">
-              <p className="text-black font-bold text-4xl">
+              <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
                 What We Build, Power, and Simplify in Fintech
               </p>
-              <p className="text-[#4F4F4F] font-normal text-base mt-10">
+              <p className="text-[#4F4F4F] text-[12px] md:text-base mt-8 md:mt-10 text-center md:text-start">
                 We develop scalable, secure fintech platforms tailored to your
                 business needs and offer ready-to-deploy products that
                 accelerate your digital finance journey. Our team provides
@@ -97,17 +109,17 @@ export default async function AboutFinspace() {
 
       {/* Lets talk */}
       <ScrollReveal>
-        <div className="flex flex-col items-center text-center p-32 my-32">
-          <p className="text-black font-bold text-4xl">
+        <div className="flex flex-col items-center text-center md:p-32 my-8 md:my-32">
+          <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
             Let’s Shape the Future of Fintech — Together
           </p>
-          <p className="text-[#636363] font-normal text-base mt-4">
+          <p className="text-[#636363] font-normal text-[12px] md:text-base mt-1 md:mt-4">
             Have a vision or challenge in digital finance? Whether you’re a
             startup exploring new ideas or an enterprise scaling fast, we’re
             here to help. Reach out to explore how Finspace can turn your goals
             into impactful solutions.
           </p>
-          <LetsTalkButton btnStyle="p-4 bg-[#158D54] text-white rounded-full text-lg font-normal w-[290px] mt-10 cursor-pointer" />
+          <LetsTalkButton btnStyle="p-2 md:p-4 bg-[#158D54] text-white rounded-full text-[14px] md:text-lg font-normal w-full md:w-[290px] mt-10 cursor-pointer" />
         </div>
       </ScrollReveal>
     </div>

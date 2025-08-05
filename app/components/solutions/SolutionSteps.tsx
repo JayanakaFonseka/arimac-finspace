@@ -25,7 +25,8 @@ export const SolutionSteps = ({ steps }: Props) => {
               <FadeInTextBlock
                 title={step.title}
                 description={step.description}
-                titleStyle="text-4xl font-bold mt-5"
+                titleStyle="text-[18px] md:text-4xl font-semibold md:font-bold mt-2 md:mt-5"
+                descStyle="text-[14px] md:text-base -mt-3 md:mt-0"
               />
             </div>
             <SlideFadeWrapper
@@ -39,7 +40,7 @@ export const SolutionSteps = ({ steps }: Props) => {
                 alt="Logo"
                 width={675}
                 height={680}
-                className="w-auto max-h-[680px] mt-10 md:mt-0"
+                className="w-auto max-h-[247px] md:max-h-[680px] mt-6 md:mt-0"
               />
             </SlideFadeWrapper>
           </div>

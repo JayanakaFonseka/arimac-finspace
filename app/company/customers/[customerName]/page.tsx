@@ -29,58 +29,59 @@ export default async function CustomerPage({ params }: Props) {
       {/* Overview */}
       <div id="overview" className="relative overflow-hidden rounded-4xl">
         <SlideFadeWrapper keyId={customer.id}>
+          <div className="md:absolute inset-0 bg-gradient-to-r from-white/100 via-white/30 to-transparent md:p-14 flex flex-col justify-end mt-8 md:mt-0">
+            <h2 className="text-black text-[32px] md:text-4xl font-bold md:w-[40%] text-center md:text-start">
+              {customer.title}
+            </h2>
+            <p className="text-[#2F323A] text-base font-normal mt-2 md:mt-4  text-center md:text-start">
+              {customer.description}
+            </p>
+          </div>
           <Image
             src={customer.image}
             alt={customer.title}
             width={1282}
             height={699}
-            className="w-full h-[699px] object-cover"
+            className="w-full h-[250px] md:h-[699px] object-cover mt-6 md:mt-0 rounded-4xl"
           />
-
-          <div className="absolute inset-0 bg-gradient-to-r from-white/100 via-white/30 to-transparent p-14 flex flex-col justify-end">
-            <h2 className="text-black text-4xl font-bold md:w-[40%]">
-              {customer.title}
-            </h2>
-            <p className="text-[#2F323A] text-base font-normal mt-4">
-              {customer.description}
-            </p>
-          </div>
         </SlideFadeWrapper>
       </div>
 
       {/* Logo and description */}
       <ScrollReveal>
-        <div id="logo-desc" className="flex flex-row items-center gap-16 mt-32">
+        <div
+          id="logo-desc"
+          className="flex flex-row items-center gap-5 md:gap-16 mt-8 md:mt-32"
+        >
           <Image
             src={customer.logo}
             alt={customer.title}
             width={232}
             height={120}
-            className="w-auto h-[80px] md:h-[72px]"
+            className="w-auto h-[32px] md:h-[72px]"
           />
-          <p className="text-black font-semibold text-2xl">
+          <p className="text-black font-semibold text-base md:text-2xl">
             {customer.logoDesc}
           </p>
         </div>
       </ScrollReveal>
 
       {/* Highlights */}
-
       {customer.highlights && (
         <ScrollReveal>
           <div
             id="highlights"
-            className="flex flex-row gap-8 justify-between mt-32"
+            className="flex flex-row gap-6 md:gap-8 justify-between mt-8 md:mt-32"
           >
             {customer.highlights?.map((highlight) => (
               <div
                 key={highlight.id}
-                className="flex flex-col text-center w-[33%] px-10"
+                className="flex flex-col text-center w-[50%] md:w-[33%] md:px-10"
               >
                 <p
                   className={`${
                     visa ? "text-[#152883]" : "text-[#D71A21]"
-                  } font-bold text-3xl`}
+                  } font-semibold md:font-bold text-lg md:text-3xl`}
                 >
                   {highlight.title}
                 </p>
@@ -88,12 +89,12 @@ export default async function CustomerPage({ params }: Props) {
                   <p
                     className={`${
                       visa ? "text-[#152883]" : "text-[#D02148]"
-                    } font-normal text-base mt-2`}
+                    } font-normal text-[14px] md:text-base mt-2`}
                   >
                     {highlight.subTitle}
                   </p>
                 )}
-                <p className="text-[#2F323A] font-normal text-base">
+                <p className="text-[#2F323A] font-normal text-[14px] md:text-base">
                   {highlight.description}
                 </p>
               </div>
@@ -104,27 +105,35 @@ export default async function CustomerPage({ params }: Props) {
 
       {/* Steps */}
       <ScrollReveal>
-        <div id="steps" className="flex flex-row justify-center md:px-20 mt-32">
-          <div className="flex flex-col w-full md:w-[34%] justify-center px-10 pr-[120px]">
-            <p className="text-black font-bold text-4xl">
+        <div
+          id="steps"
+          className="flex flex-col md:flex-row justify-center md:px-20 mt-10 md:mt-32"
+        >
+          <div className="flex flex-col w-full md:w-[34%] justify-center md:px-10 md:pr-[120px] text-center md:text-start">
+            <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
               {customer.stepsData.title}
             </p>
-            <p className="text-[#2F323A] font-normal text-base mt-4">
+            <p className="text-[#2F323A] font-normal text-[12px] md:text-base mt-1 md:mt-4">
               {customer.stepsData.description}
             </p>
           </div>
           <div className="md:w-[66%]">
             {customer.stepsData.steps.map((step) => (
-              <div key={step.id} className="flex flex-row items-center gap-4">
+              <div
+                key={step.id}
+                className="flex flex-row items-center gap-3 md:gap-4"
+              >
                 <div
-                  className={`p-4 ${customer.stepsData.outerColor} rounded-full my-5`}
+                  className={`p-1.5 md:p-4 ${customer.stepsData.outerColor} rounded-full my-4 md:my-5`}
                 >
                   <FaCheckCircle
                     size={24}
-                    className={`${customer.stepsData.innerColor}`}
+                    className={`w-[12px] md:w-[24px] h-[12px] md:h-[24px] ${customer.stepsData.innerColor}`}
                   />
                 </div>
-                <p className="text-black font-semibold text-xl">{step.title}</p>
+                <p className="text-black font-semibold text-base md:text-xl">
+                  {step.title}
+                </p>
               </div>
             ))}
           </div>
@@ -146,11 +155,11 @@ export default async function CustomerPage({ params }: Props) {
 
       {/* Colabs */}
       <ScrollReveal>
-        <div id="colabs" className="flex flex-col items-center mt-32">
-          <p className="font-bold text-4xl text-black">
+        <div id="colabs" className="flex flex-col items-center mt-8 md:mt-32">
+          <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black">
             {customer.colabsData.title}
           </p>
-          <p className="font-normal text-base text-[#2F323A] mt-2">
+          <p className="font-normal text-[12px] md:text-base text-[#2F323A] mt-1 md:mt-2 text-center">
             {customer.colabsData.description}
           </p>
           <ColabsImageGrid colabs={customer.colabsData.colabs} />
@@ -162,7 +171,7 @@ export default async function CustomerPage({ params }: Props) {
         <ScrollReveal>
           <div
             id="features"
-            className="flex flex-col items-center text-center mt-32"
+            className="flex flex-col items-center text-center mt-8 md:mt-32"
           >
             <p className="font-bold text-4xl text-black">
               {customer.featuresData.title}
@@ -176,7 +185,7 @@ export default async function CustomerPage({ params }: Props) {
                 alt={customer.featuresData.title}
                 width={232}
                 height={120}
-                className="absolute left-1/2 -translate-x-1/2 -top-40 w-[90%]"
+                className="hidden md:block absolute left-1/2 -translate-x-1/2 -top-40 w-[90%]"
               />
               <Image
                 src={customer.featuresData.image}

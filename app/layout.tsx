@@ -27,11 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth min-h-screen`}
       >
-        <div className="max-w-[1376px] p-10 pt-6 min-h-screen mx-auto">
+        <div className="max-w-[1376px] px-4 md:p-10 md:pt-6 mx-auto">
           <Header />
-          <div className="pt-8">{children}</div>
+          <div className="md:pt-8">{children}</div>
         </div>
         <Footer />
       </body>

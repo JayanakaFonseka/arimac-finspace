@@ -11,6 +11,7 @@ import { company, products, solutions } from "@/data/navigation";
 import CompanyDropdown from "./CompanyDropdown";
 import SolutionsDropdown from "./SolutionsDropdown";
 import { LetsTalkButton } from "../common/LetsTalkButton";
+import MobileMenu from "../mobile/MobileMenu";
 
 const menuItems = ["Products", "Solutions", "Company"];
 
@@ -100,20 +101,25 @@ export default function Header() {
   return (
     <div
       ref={headerRef}
-      className="sticky top-0 z-20 bg-[#D8D8D833] backdrop-blur-lg rounded-2xl"
+      className="md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl"
     >
-      <div className="flex items-center justify-between px-6 py-4 w-full">
+      <div className="flex items-center justify-between py-2.5 md:px-6 md:py-4 w-full">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center">
           <Link href="/" onClick={handleCloseDropdown}>
             <Image
               src="/logos/arimac-finspace-logo.svg"
               alt="Logo"
-              width={179}
-              height={38}
-              className="min-w-[179px]"
+              width={121}
+              height={24}
+              className="min-w-[121px] md:min-w-[179px]"
             />
           </Link>
+        </div>
+
+        {/* Mobile munu */}
+        <div className="md:hidden flex after:z-50">
+          <MobileMenu />
         </div>
 
         {/* Navigation */}
@@ -145,7 +151,7 @@ export default function Header() {
         </div>
 
         {/* CTA */}
-        <LetsTalkButton btnStyle="px-4 py-2 bg-[#158D54] text-white rounded-full text-sm cursor-pointer" />
+        <LetsTalkButton btnStyle="hidden md:block px-4 py-2 bg-[#158D54] text-white rounded-full text-sm cursor-pointer" />
       </div>
 
       {/* Portal Dropdown */}

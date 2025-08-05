@@ -4,8 +4,8 @@ import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
 
 const slides = [
-  <div className="flex flex-row w-full md:grid-cols-2">
-    <div className="w-[40%] ">
+  <div className="grid md:flex md:flex-row w-full grid-cols-1 md:grid-cols-2">
+    <div className="w-full md:w-[40%]">
       <Image
         src="/about-finspace/ceo-image.png"
         alt="frame1"
@@ -14,37 +14,56 @@ const slides = [
         className="object-cover h-auto"
       />
     </div>
-    <div className="flex flex-col justify-center w-[60%]">
-      <Image src="/icons/quote-1.svg" alt="quote" width={65} height={48} />
-      <p className="text-black font-normal text-base mt-8">
+    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0">
+      <Image
+        src="/icons/quote-1.svg"
+        alt="quote"
+        width={65}
+        height={48}
+        className="h-[24px] w-[32px] md:h-[48px] md:w-[65px]"
+      />
+      <p className="text-black font-normal text-[12px] md:text-base mt-3 md:mt-8">
         In a world full of tech buzzwords, we stand for real expertise,
         meaningful results, and trusted partnerships. For{" "}
-        <span className="text-black font-bold text-base">over 14 years,</span>{" "}
+        <span className="text-black font-bold text-[12px] md:text-base">
+          over 14 years,
+        </span>{" "}
         we’ve led FinTech innovation — not by watching trends, but by shaping
         them. With products like{" "}
-        <span className="text-[#158D54] font-bold text-base">Sherlock</span> and{" "}
-        <span className="text-[#158D54] font-bold text-base">PayNow</span>,
-        we’re delivering future-ready solutions that are already making an
+        <span className="text-[#158D54] font-bold text-[12px] md:text-base">
+          Sherlock
+        </span>{" "}
+        and{" "}
+        <span className="text-[#158D54] font-bold text-[12px] md:text-base">
+          PayNow
+        </span>
+        , we’re delivering future-ready solutions that are already making an
         impact. Backed by a passionate team and a proven track record, we invite
         you to explore what we’ve built and imagine what we can create together.
         We’re not just ready for the future — we’re building it. Let’s win it
         together.
       </p>
-      <div className="flex flex-row mt-4">
+      <div className="flex flex-row mt-8 md:mt-4">
         <div className="flex flex-col justify-end mr-5">
-          <p className="text-black font-bold text-3xl">
+          <p className="text-black font-semibold md:font-bold text-base md:text-3xl">
             Kapila Shantha Rajapaksa
           </p>
-          <p className="text-[#74767B] font-normal text-base mt-2">
+          <p className="text-[#74767B] font-normal text-[14px] md:text-base mt-2">
             CEO, Finspace
           </p>
         </div>
-        <Image src="/icons/quote-2.svg" alt="quote" width={130} height={96} />
+        <Image
+          src="/icons/quote-2.svg"
+          alt="quote"
+          width={130}
+          height={96}
+          className="w-[75px] h-[56px] md:w-[130px] md:h-[96px] ml-9"
+        />
       </div>
     </div>
   </div>,
-  <div className="flex flex-row w-full md:grid-cols-2">
-    <div className="w-[40%] ">
+  <div className="grid md:flex md:flex-row w-full grid-cols-1 md:grid-cols-2">
+    <div className="w-full md:w-[40%]">
       <Image
         src="/about-finspace/coo-image.png"
         alt="frame1"
@@ -53,9 +72,15 @@ const slides = [
         className="object-cover h-auto"
       />
     </div>
-    <div className="flex flex-col justify-center w-[60%]">
-      <Image src="/icons/quote-1.svg" alt="quote" width={65} height={48} />
-      <p className="text-black font-normal text-base mt-8">
+    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0">
+      <Image
+        src="/icons/quote-1.svg"
+        alt="quote"
+        width={65}
+        height={48}
+        className="h-[24px] w-[32px] md:h-[48px] md:w-[65px]"
+      />
+      <p className="text-black font-normal text-[12px] md:text-base mt-3 md:mt-8">
         At our core, we focus on delivering ; with precision, speed, and
         purpose. With over 14 years in the FinTech industry, we’ve transformed
         bold ideas into scalable, high-impact solutions for global brands. Our
@@ -63,21 +88,35 @@ const slides = [
         {/* <span className="text-black font-bold text-base">over 14 years,</span>{" "}
         we’ve led FinTech innovation — not by watching trends, but by shaping
         them. With products like{" "} */}
-        <span className="text-[#158D54] font-bold text-base">Sherlock</span> and{" "}
-        <span className="text-[#158D54] font-bold text-base">PayNow</span>, are
-        not just concepts; they’re live, proven platforms born from operational
-        excellence and execution-driven culture. Behind every milestone is a
-        team that’s agile, accountable, and committed to doing things right. We
-        don’t just talk about the future; we build it, one solution at a time.
+        <span className="text-[#158D54] font-bold text-[12px] md:text-base">
+          Sherlock
+        </span>{" "}
+        and{" "}
+        <span className="text-[#158D54] font-bold text-[12px] md:text-base">
+          PayNow
+        </span>
+        , are not just concepts; they’re live, proven platforms born from
+        operational excellence and execution-driven culture. Behind every
+        milestone is a team that’s agile, accountable, and committed to doing
+        things right. We don’t just talk about the future; we build it, one
+        solution at a time.
       </p>
-      <div className="flex flex-row mt-4">
+      <div className="flex flex-row mt-8 md:mt-4">
         <div className="flex flex-col justify-end mr-5">
-          <p className="text-black font-bold text-3xl">Gayan Kalinga</p>
-          <p className="text-[#74767B] font-normal text-base mt-2">
+          <p className="text-black font-semibold md:font-bold text-base md:text-3xl">
+            Gayan Kalinga
+          </p>
+          <p className="text-[#74767B] font-normal text-[14px] md:text-base mt-2">
             COO, Finspace
           </p>
         </div>
-        <Image src="/icons/quote-2.svg" alt="quote" width={130} height={96} />
+        <Image
+          src="/icons/quote-2.svg"
+          alt="quote"
+          width={130}
+          height={96}
+          className="w-[75px] h-[56px] md:w-[130px] md:h-[96px] ml-9"
+        />
       </div>
     </div>
   </div>,
@@ -116,7 +155,7 @@ export default function MessageCarousel() {
   };
 
   return (
-    <div className="flex flex-col w-full mt-32 items-center">
+    <div className="flex flex-col w-full mt-8 md:mt-32 items-center">
       <div
         className="overflow-hidden relative rounded-lg"
         onTouchStart={handleTouchStart}
@@ -142,8 +181,8 @@ export default function MessageCarousel() {
             onClick={() => setCurrent(index)}
             className={`rounded-full cursor-pointer ${
               current === index
-                ? "bg-[#059350] w-[100px] h-[10px]"
-                : "bg-[#a5dd8e59] w-[10px] h-[10px]"
+                ? "bg-[#059350] w-[32px] md:w-[100px] h-[4px] md:h-[10px]"
+                : "bg-[#a5dd8e59] w-[4px] md:w-[10px] h-[4px] md:h-[10px]"
             } transition-all duration-300`}
           />
         ))}

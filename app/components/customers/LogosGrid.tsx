@@ -17,7 +17,7 @@ export const LogosGrid = ({ clients }: any) => {
           alt={`Client ${client.id}`}
           width={80}
           height={72}
-          className="w-fit min-w-[120px] max-h-[72px] object-contain mt-10 cursor-pointer"
+          className="w-fit min-w-[100px] md:min-w-[120px] max-h-[32px] md:max-h-[72px] object-contain mt-8 md:mt-10 cursor-pointer"
           onClick={() => handleViewMore(client.redirectURL)}
         />
       ))}

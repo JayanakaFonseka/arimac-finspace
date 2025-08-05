@@ -25,7 +25,7 @@ export default function CustomerCard({ title, image, url }: Props) {
           alt={image}
           width={380}
           height={340}
-          className="w-full h-[340px] object-cover"
+          className="w-full h-[250px] md:h-[340px] object-cover"
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-5 flex flex-col justify-end">

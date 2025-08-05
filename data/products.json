@@ -137,20 +137,20 @@
     "benefits": [
       {
         "id": 1,
-        "name": "Prevent Transaction Fraud in Real-Time",
-        "description": "Instantly detect and block suspicious activities, addressing customers' fears of unauthorized transactions and safeguarding financial integrity.",
+        "name": "Get Paid Faster",
+        "description": "Access your funds by the next business day, helping you manage cash flow better.",
         "image": "/images/products/paynow/benefits/benefit-1.svg"
       },
       {
         "id": 2,
-        "name": "Strengthen Customer Trust",
-        "description": "Secure every customer interaction by providing robust fraud protection, directly addressing trust issues prevalent in digital financial transactions.",
+        "name": "Grow with Smart Features",
+        "description": "From subscriptions to card-based promotions and multi-currency support, PayNow is built to grow with your business.",
         "image": "/images/products/paynow/benefits/benefit-2.svg"
       },
       {
         "id": 3,
-        "name": "Improve Transaction Transparency",
-        "description": "Offer clear, detailed insights into every transaction, addressing customer uncertainty and fostering stronger customer-institution relationships through transparency.",
+        "name": "Stay Secure and Compliant",
+        "description": "Built-in 3D Secure, tokenization, and fraud detection ensure your transactions stay safe and reliable.",
         "image": "/images/products/paynow/benefits/benefit-3.svg"
       }
     ],

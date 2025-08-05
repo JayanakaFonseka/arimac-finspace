@@ -117,55 +117,16 @@ export default function FintechHero() {
           </button>
         </motion.div>
       </div>
-      {/* <SlideFadeWrapper
-         keyId={123}
-         // className="w-full flex justify-center px-8 max-h-[500px]"
-         xValue={-50}
-         yValue={0}
-       >
-         <div
-           id="content"
-           className="flex flex-col justify-center w-[450px] md:min-w-[355px] md:max-w-[450px] pl-10 mt-10"
-         >
-           <p className="text-5xl font-bold leading-[62px] md:min-w-[355px] text-transparent bg-clip-text bg-gradient-to-r from-[#3B36AB] from-0% to-[#1EC677] to-80%">
-             How do you
-             <br />
-             build your
-             <br />
-             perfect
-             <br />
-             FinTech stack?
-           </p>
-           <p className="text-base font-normal text-[#74767B] md:min-w-[355px]">
-             Select from our range of innovative products and customizable
-             solutions designed for your growth
-           </p>
 
-           <div className="flex-row mt-8 md:min-w-[355px]">
-             <button className="px-4 py-3 bg-gradient-to-r from-[#3B36AB] to-[#1EC677] text-white font-normal text-lg rounded-full w-[169px] max-w-[169px] mr-4 mb-4">
-               Let’s talk
-             </button>
-             <button
-               className="relative inline-block w-[169px] max-w-[169px] px-4 py-3 text-lg font-normal rounded-full z-10
-                   before:content-[''] before:absolute before:inset-0 before:rounded-full before:p-[2px] before:bg-gradient-to-r before:from-[#3B36AB] before:to-[#1EC677] before:z-[-2]
-                   after:content-[''] after:absolute after:inset-[2px] after:rounded-full after:bg-[#F8FAFC] after:z-[-1]"
-             >
-               <span className="bg-gradient-to-r from-[#3B36AB] to-[#1EC677] text-transparent bg-clip-text">
-                 Book a demo
-               </span>
-             </button>
-           </div>
-         </div>
-       </SlideFadeWrapper> */}
       {/* Image */}
-      <div id="image" className="relative p-10 md:max-w-[827px] rounded-4xl">
+      <div id="image" className="relative p-10 md:max-w-[827px]">
         <SlideFadeWrapper keyId={123} className="pl-8" xValue={50} yValue={0}>
           <Image
             src="/home/hero/main.png"
             alt="Logo"
             width={827}
             height={594}
-            className="w-full h-auto min-h-[470px] object-cover"
+            className="w-full h-auto min-h-[470px] object-cover rounded-4xl"
           />
         </SlideFadeWrapper>
         {tags.map((tag) => (

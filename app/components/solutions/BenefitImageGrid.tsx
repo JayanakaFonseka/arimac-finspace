@@ -19,14 +19,14 @@ export default function BenefitImageGrid({ benefits }: Props) {
   }
 
   return (
-    <div className="flex flex-col w-full mt-10">
+    <div className="flex flex-col w-full mt-2 md:mt-10">
       {grouped.map((pair, rowIndex) => {
         const isEvenRow = rowIndex % 2 === 0;
 
         return (
           <div
             key={rowIndex}
-            className="flex flex-col md:flex-row w-full gap-10 pt-10"
+            className="flex flex-col md:flex-row w-full gap-6 md:gap-10 pt-6 md:pt-10"
           >
             {pair.map((benefit, colIndex) => {
               // For each row:
@@ -52,10 +52,10 @@ export default function BenefitImageGrid({ benefits }: Props) {
                   {/* Text + fade */}
                   <div className="absolute bottom-0 left-0 w-full p-4 z-10">
                     <div className="text-white relative p-2 z-20">
-                      <h3 className="text-4xl font-bold text-white">
+                      <h3 className="text-base md:text-4xl font-semibold md:font-bold text-white">
                         {benefit.title}
                       </h3>
-                      <p className="text-base font-normal text-[#EAEBEB] mt-1">
+                      <p className="text-[14px] md:text-base font-normal text-[#EAEBEB] mt-1">
                         {benefit.description}
                       </p>
                     </div>

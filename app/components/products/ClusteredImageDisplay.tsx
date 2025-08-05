@@ -7,13 +7,18 @@ type Props = {
 };
 
 export default function ClusteredImageDisplay({ images }: Props) {
-  if (!images || images.length === 0) return null;
-
-  const mainImage = images[0];
-  const others = images.slice(1);
-  const radius = 180;
-
   const [rotation, setRotation] = useState(0);
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    // Set window width on client-side only
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -22,8 +27,14 @@ export default function ClusteredImageDisplay({ images }: Props) {
     return () => clearInterval(interval);
   }, []);
 
+  if (!images || images.length === 0) return null;
+  const mainImage = images[0];
+  const others = images.slice(1);
+  const isMd = windowWidth >= 768;
+  const radius = isMd ? 180 : 140;
+
   return (
-    <div className="relative w-[500px] h-[500px] mx-auto">
+    <div className="relative w-[343px] h-[377px] md:w-[500px] md:h-[500px] mx-auto">
       {/* Main image in center */}
       <div className="absolute top-1/2 left-1/2 w-[160px] h-[160px] -translate-x-1/2 -translate-y-1/2 z-10">
         <Image
@@ -42,7 +53,7 @@ export default function ClusteredImageDisplay({ images }: Props) {
         const y = radius * Math.sin(angle);
 
         const isLarge = idx % 2 === 0;
-        const size = isLarge ? 130 : 90;
+        const size = isLarge ? (isMd ? 130 : 80) : isMd ? 90 : 50;
 
         return (
           <div

@@ -11,6 +11,10 @@ import {
 } from "@mui/material";
 import { useEffect, useState } from "react";
 
+type Props = {
+  buttonStyle?: string;
+};
+
 const inputStyle = {
   //forcused-label
   "& label.Mui-focused": {
@@ -37,7 +41,7 @@ const inputStyle = {
   },
 };
 
-export const ContactUsForm = () => {
+export const ContactUsForm = ({ buttonStyle }: Props) => {
   const [countryCode, setCountryCode] = useState("+94");
   const [countryCodes, setCountryCodes] = useState<any[]>([]);
   const [isFocused, setIsFocused] = useState(false);
@@ -282,7 +286,7 @@ export const ContactUsForm = () => {
         />
         <button
           type="submit"
-          className="px-4 py-3 bg-white text-[#158D54] font-normal text-lg rounded-full w-[227px] max-w-[227px] border-1 border-[#158D54] mt-10"
+          className={`px-2 md:px-4 py-3 bg-white text-[#158D54] font-medium text-[14px] md:text-lg rounded-full w-full md:w-[227px] md:max-w-[227px] border-1 border-[#158D54] mt-10 ${buttonStyle}`}
         >
           Submit
         </button>

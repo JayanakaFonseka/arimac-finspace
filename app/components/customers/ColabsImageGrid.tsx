@@ -18,14 +18,14 @@ export default function ColabsImageGrid({ colabs }: Props) {
   }
 
   return (
-    <div className="flex flex-col w-full mt-10">
+    <div className="flex flex-col w-full mt-4 md:mt-10">
       {grouped.map((pair, rowIndex) => {
         const isEvenRow = rowIndex % 2 === 0;
 
         return (
           <div
             key={rowIndex}
-            className="flex flex-col md:flex-row w-full gap-10 pt-10"
+            className="flex flex-col md:flex-row w-full gap-4 md:gap-10 pt-4 md:pt-10"
           >
             {pair.map((colab, colIndex) => {
               // For each row:
@@ -51,7 +51,7 @@ export default function ColabsImageGrid({ colabs }: Props) {
                   {/* Text + fade */}
                   <div className="absolute bottom-0 left-0 w-full p-4 z-10">
                     <div className="text-white relative p-2 z-20">
-                      <h3 className="text-2xl font-semibold text-white">
+                      <h3 className="text-[22px] md:text-2xl font-semibold text-white">
                         {colab.title}
                       </h3>
                       {/* <p className="text-base font-normal text-[#EAEBEB] mt-1">

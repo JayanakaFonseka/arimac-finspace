@@ -98,10 +98,9 @@ export default function CustomerShowcase() {
 
   return (
     // <div className="flex flex-wrap lg:flex-nowrap gap-6">
-    <div className="flex flex-row gap-6 w-full mt-14">
+    <div className="flex flex-row md:gap-6 w-full mt-8 md:mt-14">
       {/* Filters */}
-      {/* <div className="w-full lg:w-2/5"> */}
-      <div className="w-[30%]">
+      <div className="hidden md:block md:w-[30%]">
         <h2 className="text-2xl font-semibold mb-4 text-black">Customers</h2>
         <div className="flex flex-col">
           <label className="flex items-center text-base font-normal gap-2 text-[#74767B]">
@@ -157,7 +156,7 @@ export default function CustomerShowcase() {
       </div>
 
       {/* Results */}
-      <div className="w-[70%] grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="w-full md:w-[70%] grid grid-cols-1 md:grid-cols-2 gap-6">
         {filteredResults.map((item) => (
           <CustomerCard
             key={item.title}
