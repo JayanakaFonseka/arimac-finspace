@@ -99,65 +99,66 @@ export default function Header() {
   };
 
   return (
-    <div
-      ref={headerRef}
-      className="md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl"
-    >
-      <div className="flex items-center justify-between py-2.5 md:px-6 md:py-4 w-full">
-        {/* Logo */}
-        <div className="flex items-center">
-          <Link href="/" onClick={handleCloseDropdown}>
-            <Image
-              src="/logos/arimac-finspace-logo.svg"
-              alt="Logo"
-              width={121}
-              height={24}
-              className="min-w-[121px] md:min-w-[179px]"
-            />
-          </Link>
-        </div>
-
-        {/* Mobile munu */}
-        <div className="md:hidden flex after:z-50">
-          <MobileMenu />
-        </div>
-
-        {/* Navigation */}
-        <div className="hidden md:flex items-center gap-8">
-          {menuItems.map((item) => (
-            <div
-              key={item}
-              className="relative flex flex-row gap-2 min-w-[110px] cursor-pointer"
-              onMouseEnter={() => {
-                setHoveredItem(item);
-                updateDropdownRect();
-              }}
-            >
-              <button
-                className={`text-base font-medium text-[#2c2c2c] cursor-pointer ${
-                  hoveredItem === item && "text-[#158D54] font-semibold"
-                }`}
-              >
-                {item}
-              </button>
-              <Image
-                src={hoveredItem === item ? GreenDropdownIcon : DropdownIcon}
-                alt="Dropdown"
-                width={24}
-                height={24}
-              />
-            </div>
-          ))}
-        </div>
-
-        {/* CTA */}
-        <LetsTalkButton btnStyle="hidden md:block px-4 py-2 bg-[#158D54] text-white rounded-full text-sm cursor-pointer" />
+    <>
+      {/* Mobile munu */}
+      <div className="flex md:hidden after:z-50">
+        <MobileMenu />
       </div>
+      <div
+        ref={headerRef}
+        className="hidden md:block max-w-[1376px] px-4 md:p-10 md:pt-6 mx-auto md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl"
+      >
+        <div className="flex items-center justify-between py-2.5 md:px-6 md:py-4 w-full">
+          {/* Logo */}
+          <div className="flex items-center">
+            <Link href="/" onClick={handleCloseDropdown}>
+              <Image
+                src="/logos/arimac-finspace-logo.svg"
+                alt="Logo"
+                width={121}
+                height={24}
+                className="min-w-[121px] md:min-w-[179px]"
+              />
+            </Link>
+          </div>
 
-      {/* Portal Dropdown */}
-      {hoveredItem && dropdownRect && (
-        <DropdownPortal>{renderDropdown()}</DropdownPortal>
-      )}
-    </div>
+          {/* Navigation */}
+          <div className="hidden md:flex items-center gap-8">
+            {menuItems.map((item) => (
+              <div
+                key={item}
+                className="relative flex flex-row gap-2 min-w-[110px] cursor-pointer"
+                onMouseEnter={() => {
+                  setHoveredItem(item);
+                  updateDropdownRect();
+                }}
+              >
+                <button
+                  className={`text-base font-medium text-[#2c2c2c] cursor-pointer ${
+                    hoveredItem === item && "text-[#158D54] font-semibold"
+                  }`}
+                >
+                  {item}
+                </button>
+                <Image
+                  src={hoveredItem === item ? GreenDropdownIcon : DropdownIcon}
+                  alt="Dropdown"
+                  width={24}
+                  height={24}
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* CTA */}
+          <LetsTalkButton btnStyle="hidden md:block px-4 py-2 bg-[#158D54] text-white rounded-full text-sm cursor-pointer" />
+        </div>
+
+        {/* Portal Dropdown */}
+        {hoveredItem && dropdownRect && (
+          <DropdownPortal>{renderDropdown()}</DropdownPortal>
+        )}
+      </div>
+    </>
   );
 }

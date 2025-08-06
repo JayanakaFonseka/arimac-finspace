@@ -29,8 +29,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth min-h-screen`}
       >
+        <Header />
         <div className="max-w-[1376px] px-4 md:p-10 md:pt-6 mx-auto">
-          <Header />
           <div className="md:pt-8">{children}</div>
         </div>
         <Footer />
