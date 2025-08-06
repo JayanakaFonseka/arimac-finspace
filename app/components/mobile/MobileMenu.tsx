@@ -172,7 +172,7 @@ export default function MobileMenu() {
                   }}
                 >
                   {subMenuType !== "Products" ? (
-                    <div>
+                    <div className="flex flex-row justify-between w-full">
                       <p className="text-base font-medium text-[#333333]">
                         {item.name}
                       </p>
