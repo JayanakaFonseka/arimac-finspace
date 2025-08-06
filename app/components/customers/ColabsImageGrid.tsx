@@ -51,7 +51,7 @@ export default function ColabsImageGrid({ colabs }: Props) {
                   {/* Text + fade */}
                   <div className="absolute bottom-0 left-0 w-full p-4 z-10">
                     <div className="text-white relative p-2 z-20">
-                      <h3 className="text-[22px] md:text-2xl font-semibold text-white">
+                      <h3 className="text-base md:text-2xl font-semibold text-white">
                         {colab.title}
                       </h3>
                       {/* <p className="text-base font-normal text-[#EAEBEB] mt-1">

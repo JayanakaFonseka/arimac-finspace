@@ -173,19 +173,21 @@ export default async function CustomerPage({ params }: Props) {
             id="features"
             className="flex flex-col items-center text-center mt-8 md:mt-32"
           >
-            <p className="font-bold text-4xl text-black">
+            <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black">
               {customer.featuresData.title}
             </p>
-            <p className="font-normal text-base text-[#2F323A] mt-2">
+            <p className="font-normal text-[14px] md:text-base text-[#2F323A] mt-2">
               {customer.featuresData.description}
             </p>
-            <div className="relative w-full h-[1000px]">
+            {/* For web */}
+            <div className="hidden md:block relative w-full h-[1000px]">
+              {/* Background gradient */}
               <Image
                 src={customer.featuresData.frame}
                 alt={customer.featuresData.title}
                 width={232}
                 height={120}
-                className="hidden md:block absolute left-1/2 -translate-x-1/2 -top-40 w-[90%]"
+                className="absolute left-1/2 -translate-x-1/2 -top-40 w-[90%]"
               />
               <Image
                 src={customer.featuresData.image}
@@ -216,20 +218,42 @@ export default async function CustomerPage({ params }: Props) {
                 </SlideFadeWrapper>
               ))}
             </div>
+            {/* For mobile */}
+            <div className="flex md:hidden flex-row border w-full rounded-2xl bg-[#F3F3F3A3] mt-8 p-4">
+              <div className="flex flex-col gap-4 text-start max-w-[174px] text-wrap">
+                {customer.featuresData.features.map((tag) => (
+                  <p
+                    key={tag.label}
+                    className="font-bold text-[12px] text-[#2F323A]"
+                  >
+                    {tag.label}
+                  </p>
+                ))}
+              </div>
+              <div className="flex w-fit items-center">
+                <Image
+                  src={customer.featuresData.image}
+                  alt={customer.featuresData.title}
+                  width={120}
+                  height={140}
+                  className="min-h-[140px] object-cover w-auto"
+                />
+              </div>
+            </div>
           </div>
         </ScrollReveal>
       )}
 
       {/* Lets talk */}
       <ScrollReveal>
-        <div className="flex flex-col items-center text-center p-32 my-32">
-          <p className="text-black font-bold text-4xl">
+        <div className="flex flex-col items-center text-center md:p-32 my-8 md:my-32">
+          <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
             {customer.letsTalk.title}
           </p>
-          <p className="text-[#636363] font-normal text-base mt-4">
+          <p className="text-[#636363] font-normal text-[14px] md:text-base mt-4">
             {customer.letsTalk.description}
           </p>
-          <LetsTalkButton btnStyle="p-4 bg-[#158D54] text-white rounded-full text-lg font-normal w-[290px] mt-10 cursor-pointer" />
+          <LetsTalkButton btnStyle="p-4 md:p-4 bg-[#158D54] text-white rounded-full text-base md:text-lg font-normal w-full md:w-[290px] mt-12 md:mt-10 cursor-pointer" />
         </div>
       </ScrollReveal>
     </div>
