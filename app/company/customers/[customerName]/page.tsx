@@ -253,7 +253,7 @@ export default async function CustomerPage({ params }: Props) {
           <p className="text-[#636363] font-normal text-[14px] md:text-base mt-4">
             {customer.letsTalk.description}
           </p>
-          <LetsTalkButton btnStyle="p-4 md:p-4 bg-[#158D54] text-white rounded-full text-base md:text-lg font-normal w-full md:w-[290px] mt-12 md:mt-10 cursor-pointer" />
+          <LetsTalkButton btnStyle="p-2 md:p-4 bg-[#158D54] text-white rounded-full text-base md:text-lg font-normal w-full md:w-[290px] mt-12 md:mt-10 cursor-pointer" />
         </div>
       </ScrollReveal>
     </div>
