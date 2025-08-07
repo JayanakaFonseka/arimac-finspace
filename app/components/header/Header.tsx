@@ -106,7 +106,7 @@ export default function Header() {
       </div>
       <div
         ref={headerRef}
-        className="hidden md:block max-w-[1376px] px-4 md:p-10 md:pt-6 mx-auto md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl"
+        className="hidden md:block max-w-[1376px] px-4 mx-auto md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl m-4 my-6"
       >
         <div className="flex items-center justify-between py-2.5 md:px-6 md:py-4 w-full">
           {/* Logo */}

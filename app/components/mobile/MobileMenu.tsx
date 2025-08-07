@@ -93,7 +93,7 @@ export default function MobileMenu() {
               }}
             />
           </div>
-          <div className="flex flex-col justify-between h-[90vh] mt-2">
+          <div className="flex flex-col justify-between h-full mt-2">
             <div className="flex flex-col">
               {mainMenu.map((item) => (
                 <div
@@ -154,7 +154,7 @@ export default function MobileMenu() {
               }}
             />
           </div>
-          <div className="flex flex-col justify-between h-[90vh] mt-2">
+          <div className="flex flex-col justify-between h-full mt-2">
             <div className="flex flex-col">
               {(subMenuType === "Solutions"
                 ? solutions
