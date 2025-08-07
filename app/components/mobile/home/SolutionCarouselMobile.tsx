@@ -95,7 +95,7 @@ const slides = [
       </p>
     </div>
     <Image
-      src="/mobile/home/carousel-frames/frame-2.jpg"
+      src="/mobile/home/carousel-frames/frame-2.png"
       alt="frame2"
       width={311}
       height={207}
