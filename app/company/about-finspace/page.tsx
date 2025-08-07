@@ -10,7 +10,7 @@ export default async function AboutFinspace() {
   return (
     <div className="flex flex-col">
       {/* Overview */}
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-6 md:mt-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-6 md:mt-0 gap-6">
         <div className="flex flex-col justify-center items-center md:items-start">
           <GradiantBorderTag title="About Finspace" />
           <FadeInTextBlock
@@ -20,14 +20,14 @@ export default async function AboutFinspace() {
         </div>
         <SlideFadeWrapper
           keyId="finspace-overview"
-          className="hidden md:block w-full"
+          className="hidden md:flex w-full justify-center"
         >
           <Image
             src="/about-finspace/overview.png"
             alt="Logo"
             width={625}
             height={522}
-            className="max-w-[625px] object-cover rounded-4xl"
+            className="w-full h-auto object-cover rounded-4xl"
           />
         </SlideFadeWrapper>
       </div>
@@ -39,7 +39,7 @@ export default async function AboutFinspace() {
 
       {/* Mission */}
       <ScrollReveal>
-        <div className="flex flex-col mt-8 md:mt-32 bg-[radial-gradient(ellipse_at_center,_#4944C959_0%,_transparent_60%)] border-2 p-4 rounded-2xl">
+        <div className="flex flex-col mt-8 md:mt-32 bg-[radial-gradient(ellipse_at_center,_#4944C959_0%,_transparent_60%)] border-2 md:border-0 p-4 md:p-0 rounded-2xl">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-10">
               <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
@@ -65,7 +65,7 @@ export default async function AboutFinspace() {
               </p>
             </div>
             <Image
-              src="/about-finspace/group-image-3.png"
+              src="/about-finspace/group-image-1.png"
               alt="frame1"
               width={717}
               height={546}

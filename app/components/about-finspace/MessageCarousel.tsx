@@ -14,7 +14,7 @@ const slides = [
         className="object-cover h-auto"
       />
     </div>
-    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0">
+    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0 md:ml-4">
       <Image
         src="/icons/quote-1.svg"
         alt="quote"
@@ -72,7 +72,7 @@ const slides = [
         className="object-cover h-auto"
       />
     </div>
-    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0">
+    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0 md:ml-4">
       <Image
         src="/icons/quote-1.svg"
         alt="quote"
