@@ -3,38 +3,38 @@
     "id": 1,
     "identifier": "sherlock",
     "name": "Fraud Management Portal",
-    "description": "Start your path to protecting your finances with our innovative fraud management tools. Anticipate risks and ensure a secure financial future.",
+    "description": "Sherlock – our ready-to-go fraud management system that spots and stops threats in real time, keeping you a step ahead and your business secure.",
     "image": "/images/products/sherlock/sherlock-overview.png",
     "logo": "/logos/sherlock-logo.svg",
     "features": [
       {
         "id": 1,
-        "name": "Fraud detection",
-        "description": "Detects and prevents fraudulent activities in real-time using machine learning and rule-based analysis. Helps businesses protect their assets and customers from suspicious behaviors.",
+        "name": "Transaction Monitoring",
+        "description": "This module continuously monitors real-time transactions to detect suspicious activity. It uses both rule-based logic and a machine learning model trained on localized Sri Lankan transaction data. The model continues to learn and adapt over time based on operational feedback. Upon detecting potential fraud, the system can trigger actions such as notifying the customer, blocking the transaction, or initiating additional verification like OTP or selfie spot check.",
         "image": "/images/products/sherlock/feature/feature-1.png"
       },
       {
         "id": 2,
-        "name": "User Management",
-        "description": "This feature allows institutions to create and manage user roles with fine-grained permission controls. By restricting access to sensitive modules and data, it reduces the risk of insider threats and unauthorized actions. It also ensures accountability by tracking user activities.",
+        "name": "Rule-Based Configuration",
+        "description": "This is the admin-facing module where business users can define and manage fraud detection rules. It allows the configuration of thresholds, alerts, and other business logic to tailor detection capabilities based on risk appetite and operational needs. Rules can be modified dynamically without requiring code-level changes, offering high flexibility and control.",
         "image": "/images/products/sherlock/feature/feature-2.png"
       },
       {
         "id": 3,
-        "name": "Transaction Management",
-        "description": "FrauxAI monitors, validates, and categorizes all financial transactions for inconsistencies or anomalies. It helps detect duplicate entries, unusual amounts, or deviations from customer behavior. This ensures smooth, secure, and compliant transaction flows across the platform.",
+        "name": "xAI Module",
+        "description": "The Explainable AI (xAI) module offers transparency into the machine learning model’s decision-making process. It allows administrators to: \n\u00A0\u00A0 • View the classification result of each transaction (e.g., flagged as fraudulent or safe) \n\u00A0\u00A0 • Understand the rationale behind each decision \n\u00A0\u00A0 • Review feature importance/weights used by the model for each transaction This promotes accountability and helps regulatory or compliance teams audit AI-driven decisions.",
         "image": "/images/products/sherlock/feature/feature-3.png"
       },
       {
         "id": 4,
-        "name": "System Audit",
-        "description": "The system audit module logs every user action and system change in a centralized trail. It provides full visibility into who did what and when, which is essential for regulatory compliance and internal investigations. This builds trust and transparency in operations.",
+        "name": "Enhancement to eKYC Registration",
+        "description": "This module strengthens the eKYC (electronic Know Your Customer) process by displaying: \n\u00A0\u00A0 • The customer’s National Identity Card (NIC) \n\u00A0\u00A0 • Profile photo \n\u00A0\u00A0 • Any relevant background check data \nThis ensures higher accuracy in identity verification and helps prevent identity fraud during user onboarding.",
         "image": "/images/products/sherlock/feature/feature-4.png"
       },
       {
         "id": 5,
-        "name": "Reports",
-        "description": "FrauxAI generates customizable, data-rich reports covering fraud trends, flagged cases, user activity, and system performance. These insights help compliance teams, auditors, and leadership make informed decisions. Reports can also be exported for regulatory filings or internal reviews.",
+        "name": "Mobile SDK for Behavioral Analysis",
+        "description": "This Software Development Kit (SDK) is integrated into mobile applications to collect behavioral and device-level data. It captures mobile parameters like: \n\u00A0\u00A0 • Device fingerprinting \n\u00A0\u00A0 • User typing patterns \n\u00A0\u00A0 • App usage behavior \n This behavioral data helps in detecting anomalies that may indicate fraudulent activities, particularly on mobile platforms.",
         "image": "/images/products/sherlock/feature/feature-5.png"
       }
     ],
@@ -99,7 +99,7 @@
     "id": 2,
     "identifier": "pay-now",
     "name": "PayNow – Fast, Secure, and Scalable Payments for Every Business  ",
-    "description": "PayNow is a smart and easy way for businesses to take payments online. It’s fast, safe, and works with many currencies. With low fees and helpful features like repeat payments and card offers, PayNow helps your business grow smoothly.",
+    "description": "PayNow is a secure, efficient payment aggregator that streamlines digital transactions for businesses, offering low fees, recurring payments, card-based promotions, and multi-currency processing.",
     "image": "/images/products/paynow/paynow-overview.png",
     "logo": "/logos/paynow-logo.svg",
     "features": [
@@ -129,28 +129,28 @@
       },
       {
         "id": 5,
-        "name": "Access the Platform on Any Device",
-        "description": "Use PayNow on both mobile and desktop, with a smooth and responsive interface.  ",
+        "name": "Tokenization",
+        "description": "Provides tokenized payment flows, allowing secure card storage for repeat customers while maintaining PCI compliance.",
         "image": "/images/products/paynow/feature/feature-5.png"
       }
     ],
     "benefits": [
       {
         "id": 1,
-        "name": "Get Paid Faster",
-        "description": "Access your funds by the next business day, helping you manage cash flow better.",
+        "name": "Developer-Friendly Implementation",
+        "description": "Offers a robust sandbox environment to simplify integration, testing, and deployment.",
         "image": "/images/products/paynow/benefits/benefit-1.svg"
       },
       {
         "id": 2,
-        "name": "Grow with Smart Features",
-        "description": "From subscriptions to card-based promotions and multi-currency support, PayNow is built to grow with your business.",
+        "name": "Competitive Transaction Fee",
+        "description": "Provider Fee: Can get as low as 2.5% per transaction. PayNow offers one of the most competitive rates in the industry, ensuring cost-effective processing for merchants.",
         "image": "/images/products/paynow/benefits/benefit-2.svg"
       },
       {
         "id": 3,
-        "name": "Stay Secure and Compliant",
-        "description": "Built-in 3D Secure, tokenization, and fraud detection ensure your transactions stay safe and reliable.",
+        "name": "Secure Transactions (3D Secure)",
+        "description": "Implements 3D Secure (3DS) protocols for added fraud protection and regulatory compliance.",
         "image": "/images/products/paynow/benefits/benefit-3.svg"
       }
     ],

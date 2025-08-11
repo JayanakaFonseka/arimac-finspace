@@ -7,8 +7,65 @@ const slides = [
   <div className="grid md:flex md:flex-row w-full grid-cols-1 md:grid-cols-2">
     <div className="w-full md:w-[40%]">
       <Image
+        src="/about-finspace/gceo-image.png"
+        alt="Chamira Jayasinghe"
+        width={418}
+        height={547}
+        className="object-cover h-auto"
+      />
+    </div>
+    <div className="flex flex-col justify-center w-full md:w-[60%] mt-6 md:mt-0 md:ml-4">
+      <Image
+        src="/icons/quote-1.svg"
+        alt="quote"
+        width={65}
+        height={48}
+        className="h-[24px] w-[32px] md:h-[48px] md:w-[65px]"
+      />
+      <p className="text-black font-normal text-[12px] md:text-base mt-3 md:mt-8">
+        At Arimac, we believe in empowering bold ideas through innovation.{" "}
+        {/* <span className="text-black font-bold text-[12px] md:text-base">
+          over 14 years,
+        </span>{" "}
+        we’ve led FinTech innovation — not by watching trends, but by shaping
+        them. With products like{" "} */}
+        <span className="text-[#158D54] font-bold text-[12px] md:text-base">
+          Finspace
+        </span>
+        {/* and{" "}
+        <span className="text-[#158D54] font-bold text-[12px] md:text-base">
+          PayNow
+        </span> */}
+        , our fintech subsidiary, is a reflection of that vision; driving
+        digital transformation in the financial sector with smart, secure, and
+        user-focused solutions. As part of the Arimac Group, Finspace brings
+        together deep industry knowledge and cutting-edge technology to create
+        meaningful impact for our clients and partners.
+      </p>
+      <div className="flex flex-row mt-8 md:mt-4">
+        <div className="flex flex-col justify-end mr-5">
+          <p className="text-black font-semibold md:font-bold text-base md:text-3xl">
+            Chamira Jayasinghe
+          </p>
+          <p className="text-[#74767B] font-normal text-[14px] md:text-base mt-2">
+            GCEO, Arimac
+          </p>
+        </div>
+        <Image
+          src="/icons/quote-2.svg"
+          alt="quote"
+          width={130}
+          height={96}
+          className="w-[75px] h-[56px] md:w-[130px] md:h-[96px] ml-9"
+        />
+      </div>
+    </div>
+  </div>,
+  <div className="grid md:flex md:flex-row w-full grid-cols-1 md:grid-cols-2">
+    <div className="w-full md:w-[40%]">
+      <Image
         src="/about-finspace/ceo-image.png"
-        alt="frame1"
+        alt="Kapila Shantha Rajapaksa"
         width={418}
         height={547}
         className="object-cover h-auto"
@@ -66,7 +123,7 @@ const slides = [
     <div className="w-full md:w-[40%]">
       <Image
         src="/about-finspace/coo-image.png"
-        alt="frame1"
+        alt="Gayan Kalinga"
         width={418}
         height={547}
         className="object-cover h-auto"

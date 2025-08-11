@@ -51,10 +51,10 @@ export default async function ProductPage({ params }: Props) {
             Benefits
           </a>
           <a
-            href="#our-customers"
+            href="#our-team"
             className="px-4 py-2 bg-white text-[#333333] font-medium text-base"
           >
-            Our Customers
+            Our Team
           </a>
         </div>
       </div>
@@ -158,9 +158,9 @@ export default async function ProductPage({ params }: Props) {
         </div>
       </ScrollReveal>
 
-      {/* Our customers */}
+      {/* Our team */}
       <ScrollReveal>
-        <div id="our-customers" className="flex flex-col scroll-mt-20">
+        <div id="our-team" className="flex flex-col scroll-mt-20">
           <div className="grid grid-col-1 md:grid-cols-2 items-center mt-10 gap-10 ">
             <div className="flex flex-col h-full justify-between">
               <div className="flex flex-col my-10 h-full justify-center items-center md:items-start text-center md:text-start">
