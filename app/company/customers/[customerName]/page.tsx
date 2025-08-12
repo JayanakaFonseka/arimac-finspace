@@ -10,6 +10,7 @@ import ColabsImageGrid from "@/app/components/customers/ColabsImageGrid";
 import VisaFeaturesSlider from "@/app/components/customers/VisaFeaturesSlider";
 import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import ScrollReveal from "@/app/components/common/ScrollReveal";
+import VisaFeaturesSliderMobile from "@/app/components/mobile/about-finspace/VisaFeaturesSliderMobile";
 
 type Props = {
   params: Promise<{
@@ -69,19 +70,20 @@ export default async function CustomerPage({ params }: Props) {
       {/* Highlights */}
       {customer.highlights && (
         <ScrollReveal>
+          {/* For Web */}
           <div
             id="highlights"
-            className="flex flex-row gap-6 md:gap-8 justify-between mt-8 md:mt-32"
+            className="hidden md:flex flex-row gap-8 justify-between mt-32"
           >
             {customer.highlights?.map((highlight) => (
               <div
                 key={highlight.id}
-                className="flex flex-col text-center w-[50%] md:w-[33%] md:px-10"
+                className="flex flex-col text-center w-[33%] px-10"
               >
                 <p
                   className={`${
                     visa ? "text-[#152883]" : "text-[#D71A21]"
-                  } font-semibold md:font-bold text-lg md:text-3xl`}
+                  } font-bold text-3xl`}
                 >
                   {highlight.title}
                 </p>
@@ -89,16 +91,53 @@ export default async function CustomerPage({ params }: Props) {
                   <p
                     className={`${
                       visa ? "text-[#152883]" : "text-[#D02148]"
-                    } font-normal text-[14px] md:text-base mt-2`}
+                    } font-normal text-base mt-2`}
                   >
                     {highlight.subTitle}
                   </p>
                 )}
-                <p className="text-[#2F323A] font-normal text-[14px] md:text-base">
+                <p className="text-[#2F323A] font-normal text-base">
                   {highlight.description}
                 </p>
               </div>
             ))}
+          </div>
+          {/* For Mobile */}
+          <div
+            id="highlights"
+            className="md:hidden flex flex-row flex-wrap justify-between mt-8 border-2 rounded-2xl p-4"
+          >
+            {customer.highlights.map((highlight, index) => {
+              const isLast = index === (customer.highlights?.length ?? 0) - 1;
+              return (
+                <div
+                  key={highlight.id}
+                  className={`flex flex-col text-center ${
+                    isLast ? "w-full mt-6" : "w-[47%]"
+                  }`}
+                >
+                  <p
+                    className={`${
+                      visa ? "text-[#152883]" : "text-[#D71A21]"
+                    } font-semibold text-lg px-3`}
+                  >
+                    {highlight.title}
+                  </p>
+                  {highlight.subTitle && (
+                    <p
+                      className={`${
+                        visa ? "text-[#152883]" : "text-[#D02148]"
+                      } font-normal text-[14px] mt-2`}
+                    >
+                      {highlight.subTitle}
+                    </p>
+                  )}
+                  <p className="text-[#2F323A] font-normal text-[14px]">
+                    {highlight.description}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </ScrollReveal>
       )}
@@ -143,12 +182,21 @@ export default async function CustomerPage({ params }: Props) {
       {/* Special features for VISA */}
       {visa && (
         <ScrollReveal>
-          <div id="visa-features" className="flex flex-col items-center mt-32">
+          <div
+            id="visa-features"
+            className="flex flex-col items-center mt-8 md:mt-32 text-center md:text-start"
+          >
             <GradiantTag title="Project Modules Delivered" />
-            <p className="font-bold text-4xl text-black mt-5">
+            <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-5">
               Tailored Fintech Solutions Designed for Visa USA
             </p>
-            <VisaFeaturesSlider />
+
+            <div className="hidden md:block">
+              <VisaFeaturesSlider />
+            </div>
+            <div className="md:hidden flex w-[100vw]">
+              <VisaFeaturesSliderMobile />
+            </div>
           </div>
         </ScrollReveal>
       )}
