@@ -81,7 +81,7 @@ export default async function ProductPage({ params }: Props) {
 
   return (
     <div className="flex flex-col">
-      <div className="hidden md:flex flex-row sticky top-0 z-30 bg-[#ffffff] justify-between items-center mb-6 px-6 py-4">
+      <div className="hidden md:flex flex-row sticky top-0 z-30 bg-[#ffffff] justify-between items-center mb-6 px-16 py-4 -mx-10">
         <Image src={product.logo} alt="Logo" width={158} height={56} />
         {/* Navigation */}
         <div className="flex flex-wrap space-x-2 justify-center">

@@ -11,7 +11,7 @@ type Props = {
   style?: React.CSSProperties;
 };
 
-export default function DropdownContent({ items, onClose, style }: Props) {
+export default function ProductsDropdown({ items, onClose, style }: Props) {
   const [selectedItem, setSelectedItem] = useState<NavItem>(items[0]);
   const router = useRouter();
 
@@ -23,7 +23,7 @@ export default function DropdownContent({ items, onClose, style }: Props) {
   return (
     <div
       style={style}
-      className="fixed top-[90px] left-[4vw] w-full max-w-[1296px] px-6 py-6 bg-white shadow-xl rounded-2xl border-t z-[100] flex flex-row justify-between"
+      className="fixed top-[90px] left-[4vw] w-full max-w-[1376px] px-6 py-6 bg-white shadow-xl rounded-2xl border-t z-[100] flex flex-row justify-between"
       onMouseLeave={onClose}
     >
       {/* Left List */}

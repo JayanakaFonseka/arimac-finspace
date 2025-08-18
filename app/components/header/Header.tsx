@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import DropdownIcon from "@/public/icons/dropdown-icon.svg";
 import GreenDropdownIcon from "@/public/icons/green-dropdown-icon.svg";
-import DropdownContent from "./DropdownContent";
+import ProductsDropdown from "./ProductsDropdown";
 import DropdownPortal from "./DropdownPortal";
 import { company, products, solutions } from "@/data/navigation";
 import CompanyDropdown from "./CompanyDropdown";
@@ -45,12 +45,6 @@ export default function Header() {
   const handleCloseDropdown = () => setHoveredItem(null);
 
   const renderDropdown = () => {
-    const items =
-      hoveredItem === "Products"
-        ? products
-        : hoveredItem === "Solutions"
-        ? solutions
-        : company;
     if (!dropdownRect) return null;
 
     if (hoveredItem === "Company") {
@@ -83,7 +77,7 @@ export default function Header() {
       );
     } else {
       return (
-        <DropdownContent
+        <ProductsDropdown
           items={products}
           onClose={handleCloseDropdown}
           style={{
@@ -106,7 +100,7 @@ export default function Header() {
       </div>
       <div
         ref={headerRef}
-        className="hidden md:block max-w-[1376px] px-4 mx-auto md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl m-4 my-6"
+        className="hidden md:block relative max-w-[1376px] px-4 mx-auto md:sticky md:top-0 md:z-20 md:bg-[#D8D8D833] backdrop-blur-lg md:rounded-2xl m-4 my-6"
       >
         <div className="flex items-center justify-between py-2.5 md:px-6 md:py-4 w-full">
           {/* Logo */}
