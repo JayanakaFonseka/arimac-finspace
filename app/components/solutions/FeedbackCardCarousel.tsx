@@ -54,14 +54,14 @@ export default function FeedbackCardCarousel() {
   const duplicated = [...feedback, ...feedback]; // for looping
 
   return (
-    <div className="w-full overflow-hidden relative mt-16">
+    <div className="max-w-[98vw] overflow-x-hidden relative mt-16">
       {/* Animated Row */}
-      <div className="flex gap-6 w-max animate-[scroll-left_120s_linear_infinite]">
+      <div className="flex gap-6 w-full animate-[scroll-left_120s_linear_infinite]">
         {duplicated.map((item, index) => (
           <div
             key={index}
             className="relative bg-gradient-to-tl from-[#3c36ab25] from-0% to-[#3c36ab05] to-80% rounded-xl flex-shrink-0"
-            style={{ width: 383, height: 550 }}
+            style={{ width: 383, height: 570 }}
           >
             {/* Quotation */}
             <div className="absolute top-5 left-5 text-gray-300 text-4xl">
@@ -112,7 +112,7 @@ export default function FeedbackCardCarousel() {
                     />
                   ))}
                 </div>
-                <p className="font-semibold text-gray-900">{item.name}</p>
+                <h3 className="font-semibold text-gray-900">{item.name}</h3>
                 <p className="text-gray-600">{item.designation}</p>
                 <p className="text-gray-500">{item.company}</p>
                 {/* <Image

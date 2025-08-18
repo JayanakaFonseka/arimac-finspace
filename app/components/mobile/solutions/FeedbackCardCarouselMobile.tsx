@@ -164,7 +164,7 @@ export default function FeedbackCardCarouselMobile() {
                         />
                       ))}
                     </div>
-                    <p className="font-semibold text-gray-900">{item.name}</p>
+                    <h3 className="font-semibold text-gray-900">{item.name}</h3>
                     <p className="text-gray-600">{item.designation}</p>
                     <p className="text-gray-500">{item.company}</p>
                   </div>

@@ -82,7 +82,7 @@ export default function FintechHeroMobile() {
         wrapper="p"
         speed={50}
         repeat={Infinity}
-        className="text-[32px] font-bold leading-[41px]  text-transparent bg-clip-text bg-gradient-to-r from-[#3B36AB] from-0% to-[#1EC677] to-80%"
+        className="[font-family:var(--font-sora)] text-[32px] font-bold leading-[41px]  text-transparent bg-clip-text bg-gradient-to-r from-[#3B36AB] from-0% to-[#1EC677] to-80%"
       />
 
       {/* Description */}

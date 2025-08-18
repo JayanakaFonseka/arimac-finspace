@@ -6,9 +6,9 @@ import { useEffect, useState, useRef } from "react";
 const slides = [
   // Frame 1
   <div className="flex flex-col p-4 rounded-3xl">
-    <p className="text-[18px] font-semibold text-[#2F323A]">
+    <h3 className="text-[18px] font-semibold text-[#2F323A]">
       Why the Time is Now?
-    </p>
+    </h3>
     <p className="text-[12px] font-normal text-[#74767B]">
       The Big Shift in Customer Behavior
     </p>
@@ -55,9 +55,9 @@ const slides = [
   </div>,
   // Frame 2
   <div className="flex flex-col p-4 rounded-3xl">
-    <p className="text-[18px] font-semibold text-[#2F323A]">
+    <h3 className="text-[18px] font-semibold text-[#2F323A]">
       AI - More Than a Buzzword. At FinSpace, It’s the Backbone.
-    </p>
+    </h3>
     <p className="text-[12px] font-normal text-[#74767B]">
       We embed AI into design, decisions, and delivery to:
     </p>
@@ -104,9 +104,9 @@ const slides = [
   </div>,
   // Frame 3
   <div className="flex flex-col p-4 rounded-3xl">
-    <p className="text-[18px] font-semibold text-[#2F323A]">
+    <h3 className="text-[18px] font-semibold text-[#2F323A]">
       Fraud Doesn’t Stand a Chance
-    </p>
+    </h3>
     <p className="text-[12px] font-normal text-[#74767B]">
       Powered by Smart AI, Protected by FinSpace
     </p>
@@ -134,9 +134,9 @@ const slides = [
   </div>,
   // Frame 4
   <div className="flex flex-col p-4 rounded-3xl">
-    <p className="text-[18px] font-semibold text-[#2F323A] text-wrap">
+    <h3 className="text-[18px] font-semibold text-[#2F323A] text-wrap">
       Security & Compliance by Design Trust isn’t optional - it’s foundational
-    </p>
+    </h3>
     <div className="flex flex-row mt-6 gap-3">
       <Image
         src="/mobile/home/carousel-frames/icons/slide-2-icon-1.svg"

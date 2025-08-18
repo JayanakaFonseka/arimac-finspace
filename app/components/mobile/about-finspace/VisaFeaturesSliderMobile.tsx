@@ -157,7 +157,7 @@ export default function VisaFeaturesSliderMobile() {
             height={24}
           />
           <div className="flex flex-col ml-3">
-            <p className="text-base font-semibold text-black">Challenge</p>
+            <h2 className="text-base font-semibold text-black">Challenge</h2>
             <p className="text-sm font-normal text-[#74767B] mt-2">
               {current.challenge}
             </p>
@@ -173,7 +173,7 @@ export default function VisaFeaturesSliderMobile() {
             height={24}
           />
           <div className="flex flex-col ml-3">
-            <p className="text-base font-semibold text-black">Solution</p>
+            <h2 className="text-base font-semibold text-black">Solution</h2>
             <div className="flex flex-col md:flex-row gap-4 mt-4">
               <div className="flex flex-row gap-2">
                 <Image
@@ -218,9 +218,9 @@ export default function VisaFeaturesSliderMobile() {
           <div className="flex flex-row border-1 border-[#C2CCFF] justify-between p-4 mt-6 shadow-lg rounded-3xl">
             {current.steps.map((step) => (
               <div key={step.id} className="flex flex-col text-center w-[31%]">
-                <p className="text-base font-semibold text-[#152883]">
+                <h2 className="text-base font-semibold text-[#152883]">
                   {step.title}
-                </p>
+                </h2>
                 <p className="text-[14px] font-normal text-[#152883]">
                   {step.description}
                 </p>

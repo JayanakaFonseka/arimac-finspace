@@ -83,9 +83,9 @@ export default function Customers() {
           className="flex flex-col items-center mt-8 md:my-32 md:scroll-m-20"
         >
           <GradiantTag title="Customer stories" />
-          <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
+          <h1 className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             Stories that speaks results
-          </p>
+          </h1>
           <CustomerShowcase />
         </div>
       </ScrollReveal>

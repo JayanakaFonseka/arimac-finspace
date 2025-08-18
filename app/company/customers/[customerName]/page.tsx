@@ -61,9 +61,9 @@ export default async function CustomerPage({ params }: Props) {
             height={120}
             className="w-auto h-[32px] md:h-[72px]"
           />
-          <p className="text-black font-semibold text-base md:text-2xl">
+          <h3 className="text-black font-semibold text-base md:text-2xl">
             {customer.logoDesc}
-          </p>
+          </h3>
         </div>
       </ScrollReveal>
 
@@ -80,13 +80,13 @@ export default async function CustomerPage({ params }: Props) {
                 key={highlight.id}
                 className="flex flex-col text-center w-[33%] px-10"
               >
-                <p
+                <h3
                   className={`${
                     visa ? "text-[#152883]" : "text-[#D71A21]"
                   } font-bold text-3xl`}
                 >
                   {highlight.title}
-                </p>
+                </h3>
                 {highlight.subTitle && (
                   <p
                     className={`${
@@ -116,13 +116,13 @@ export default async function CustomerPage({ params }: Props) {
                     isLast ? "w-full mt-6" : "w-[47%]"
                   }`}
                 >
-                  <p
+                  <h3
                     className={`${
                       visa ? "text-[#152883]" : "text-[#D71A21]"
                     } font-semibold text-lg px-3`}
                   >
                     {highlight.title}
-                  </p>
+                  </h3>
                   {highlight.subTitle && (
                     <p
                       className={`${
@@ -149,9 +149,9 @@ export default async function CustomerPage({ params }: Props) {
           className="flex flex-col md:flex-row justify-center md:px-20 mt-10 md:mt-32"
         >
           <div className="flex flex-col w-full md:w-[34%] justify-center md:px-10 md:pr-[120px] text-center md:text-start">
-            <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
+            <h2 className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
               {customer.stepsData.title}
-            </p>
+            </h2>
             <p className="text-[#2F323A] font-normal text-[12px] md:text-base mt-1 md:mt-4">
               {customer.stepsData.description}
             </p>
@@ -170,9 +170,9 @@ export default async function CustomerPage({ params }: Props) {
                     className={`w-[12px] md:w-[24px] h-[12px] md:h-[24px] ${customer.stepsData.innerColor}`}
                   />
                 </div>
-                <p className="text-black font-semibold text-base md:text-xl">
+                <h3 className="text-black font-semibold text-base md:text-xl">
                   {step.title}
-                </p>
+                </h3>
               </div>
             ))}
           </div>
@@ -187,9 +187,9 @@ export default async function CustomerPage({ params }: Props) {
             className="flex flex-col items-center mt-8 md:mt-32 text-center md:text-start"
           >
             <GradiantTag title="Project Modules Delivered" />
-            <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-5">
+            <h1 className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-5">
               Tailored Fintech Solutions Designed for Visa USA
-            </p>
+            </h1>
 
             <div className="hidden md:block">
               <VisaFeaturesSlider />
@@ -204,9 +204,9 @@ export default async function CustomerPage({ params }: Props) {
       {/* Colabs */}
       <ScrollReveal>
         <div id="colabs" className="flex flex-col items-center mt-8 md:mt-32">
-          <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black">
+          <h1 className="font-semibold md:font-bold text-[22px] md:text-4xl text-black">
             {customer.colabsData.title}
-          </p>
+          </h1>
           <p className="font-normal text-[12px] md:text-base text-[#2F323A] mt-1 md:mt-2 text-center">
             {customer.colabsData.description}
           </p>
@@ -221,9 +221,9 @@ export default async function CustomerPage({ params }: Props) {
             id="features"
             className="flex flex-col items-center text-center mt-8 md:mt-32"
           >
-            <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black">
+            <h1 className="font-semibold md:font-bold text-[22px] md:text-4xl text-black">
               {customer.featuresData.title}
-            </p>
+            </h1>
             <p className="font-normal text-[14px] md:text-base text-[#2F323A] mt-2">
               {customer.featuresData.description}
             </p>
@@ -295,9 +295,9 @@ export default async function CustomerPage({ params }: Props) {
       {/* Lets talk */}
       <ScrollReveal>
         <div className="flex flex-col items-center text-center md:p-32 my-8 md:my-32">
-          <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
+          <h1 className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
             {customer.letsTalk.title}
-          </p>
+          </h1>
           <p className="text-[#636363] font-normal text-[14px] md:text-base mt-4">
             {customer.letsTalk.description}
           </p>

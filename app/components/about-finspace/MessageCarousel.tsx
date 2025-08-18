@@ -44,9 +44,9 @@ const slides = [
       </p>
       <div className="flex flex-row mt-8 md:mt-4">
         <div className="flex flex-col justify-end mr-5">
-          <p className="text-black font-semibold md:font-bold text-base md:text-3xl">
+          <h1 className="text-black font-semibold md:font-bold text-base md:text-3xl">
             Chamira Jayasinghe
-          </p>
+          </h1>
           <p className="text-[#74767B] font-normal text-[14px] md:text-base mt-2">
             GCEO, Arimac
           </p>
@@ -102,9 +102,9 @@ const slides = [
       </p>
       <div className="flex flex-row mt-8 md:mt-4">
         <div className="flex flex-col justify-end mr-5">
-          <p className="text-black font-semibold md:font-bold text-base md:text-3xl">
+          <h1 className="text-black font-semibold md:font-bold text-base md:text-3xl">
             Kapila Shantha Rajapaksa
-          </p>
+          </h1>
           <p className="text-[#74767B] font-normal text-[14px] md:text-base mt-2">
             CEO, Finspace
           </p>
@@ -160,9 +160,9 @@ const slides = [
       </p>
       <div className="flex flex-row mt-8 md:mt-4">
         <div className="flex flex-col justify-end mr-5">
-          <p className="text-black font-semibold md:font-bold text-base md:text-3xl">
+          <h1 className="text-black font-semibold md:font-bold text-base md:text-3xl">
             Gayan Kalinga
-          </p>
+          </h1>
           <p className="text-[#74767B] font-normal text-[14px] md:text-base mt-2">
             COO, Finspace
           </p>

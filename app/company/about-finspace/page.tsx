@@ -42,10 +42,10 @@ export default async function AboutFinspace() {
         <div className="flex flex-col mt-8 md:mt-32 bg-[radial-gradient(ellipse_at_center,_#4944C959_0%,_transparent_60%)] border-2 md:border-0 p-4 md:p-0 rounded-2xl">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-10">
-              <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
+              <h1 className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
                 Our mission is clear to empower businesses with powerful,
                 scalable FinTech platforms
-              </p>
+              </h1>
               <p className="text-[#4F4F4F] font-normal text-[12px] md:text-base mt-8 md:mt-10 text-center md:text-start">
                 With over 14 years of industry expertise, we develop custom
                 platforms, innovative products, and end-to-end solutions that
@@ -90,9 +90,9 @@ export default async function AboutFinspace() {
               className="hidden md:block object-cover h-auto md:pr-10"
             />
             <div className="flex flex-col justify-center">
-              <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
+              <h1 className="text-black font-semibold md:font-bold text-[22px] md:text-4xl text-center md:text-start">
                 What We Build, Power, and Simplify in Fintech
-              </p>
+              </h1>
               <p className="text-[#4F4F4F] text-[12px] md:text-base mt-8 md:mt-10 text-center md:text-start">
                 We develop scalable, secure fintech platforms tailored to your
                 business needs and offer ready-to-deploy products that
@@ -110,9 +110,9 @@ export default async function AboutFinspace() {
       {/* Lets talk */}
       <ScrollReveal>
         <div className="flex flex-col items-center text-center md:p-32 my-8 md:my-32">
-          <p className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
+          <h1 className="text-black font-semibold md:font-bold text-[22px] md:text-4xl">
             Let’s Shape the Future of Fintech — Together
-          </p>
+          </h1>
           <p className="text-[#636363] font-normal text-[12px] md:text-base mt-1 md:mt-4">
             Have a vision or challenge in digital finance? Whether you’re a
             startup exploring new ideas or an enterprise scaling fast, we’re

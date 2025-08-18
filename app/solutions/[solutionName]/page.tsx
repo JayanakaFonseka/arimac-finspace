@@ -64,9 +64,9 @@ export default async function SolutionPage({ params }: Props) {
       <ScrollReveal>
         <div id="features" className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title={solution.stepsData.tagName} />
-          <p className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
+          <h1 className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             {solution.stepsData.title}
-          </p>
+          </h1>
           <SolutionSteps steps={solution.stepsData.steps} />
         </div>
       </ScrollReveal>
@@ -75,9 +75,9 @@ export default async function SolutionPage({ params }: Props) {
       <ScrollReveal>
         <div id="benefits" className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title={solution.benefitsData.tagName} />
-          <p className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
+          <h1 className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             {solution.benefitsData.title}
-          </p>
+          </h1>
           <BenefitImageGrid benefits={solution.benefitsData.benefits} />
         </div>
       </ScrollReveal>
@@ -86,9 +86,9 @@ export default async function SolutionPage({ params }: Props) {
       <ScrollReveal>
         <div id="clients" className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title={solution.ourCustomers.tagName} />
-          <p className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
+          <h1 className="text-center md:text-start font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-5">
             {solution.ourCustomers.title}
-          </p>
+          </h1>
           <div className="hidden md:block">
             <FeedbackCardCarousel />
           </div>
@@ -102,13 +102,13 @@ export default async function SolutionPage({ params }: Props) {
       <ScrollReveal>
         <div className="flex flex-col items-center mt-8 md:mt-32">
           <GradiantTag title="Contact us" />
-          <p className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-8 text-center md:text-start">
+          <h1 className="font-semibold md:font-bold text-[22px] md:text-4xl text-black mt-3 md:mt-8 text-center md:text-start">
             Lets's Chat, Reach Out to Us
-          </p>
+          </h1>
           <div className="flex flex-col rounded-4xl p-4 md:p-8 md:min-w-[660px] shadow-md my-8 md:my-16">
-            <p className="text-base md:text-2xl font-semibold text-black">
+            <h3 className="text-base md:text-2xl font-semibold text-black">
               Get in touch
-            </p>
+            </h3>
             <p className="text-sm md:text-base font-normal text-[#74767B] mt-1 md:mt-2">
               You can reach us anytime
             </p>

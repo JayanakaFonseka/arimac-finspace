@@ -29,7 +29,7 @@ export default function CustomerCard({ title, image, url }: Props) {
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-5 flex flex-col justify-end">
-          <p className="text-white text-base font-semibold">{title}</p>
+          <h3 className="text-white text-base font-semibold">{title}</h3>
           <button className="flex text-white text-base font-normal mt-3 cursor-pointer">
             Read now
           </button>

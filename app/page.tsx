@@ -19,9 +19,9 @@ export default function Home() {
 
       <ScrollReveal>
         <div className="flex flex-col items-center mt-8 md:mt-32 w-full">
-          <p className="text-[22px] md:text-5xl font-semibold text-black text-center">
+          <h1 className="text-[22px] md:text-5xl font-semibold text-black text-center">
             Want to upgrade your FinTech capabilities without hassle?
-          </p>
+          </h1>
           {/* <SolutionSlider /> */}
           <div className="hidden md:block">
             <SolutionCarousel />
@@ -34,18 +34,19 @@ export default function Home() {
 
       <ScrollReveal>
         <div className="hidden md:flex flex-col items-center mt-32 w-full">
-          <p className="text-5xl font-semibold text-black">
+          <h1 className="text-5xl font-semibold text-black">
             Our Work. Their Wins.
-          </p>
+          </h1>
           <p className="text-lg font-normal text-[#74767B] mt-6">
             Discover the stories behind smarter systems and scalable growth.
           </p>
           <ClientShowcase />
         </div>
+        {/* For mobile */}
         <div className="md:hidden flex flex-col text-center mt-8 w-full">
-          <p className="text-[22px] font-semibold text-black">
+          <h1 className="text-[22px] font-semibold text-black">
             Our Work. Their Wins.
-          </p>
+          </h1>
           <p className="text-[12px] font-normal text-[#74767B] mt-1">
             Discover the stories behind smarter systems and scalable growth.
           </p>
@@ -55,9 +56,9 @@ export default function Home() {
 
       <ScrollReveal>
         <div className="flex flex-col items-center mt-8 md:p-36 md:mt-32 md:my-20 md:rounded-3xl md:bg-gradient-to-bl from-[#3c36ab25] from-0% to-[#3c36ab05] to-80%">
-          <p className="text-[18px] md:text-5xl font-semibold text-black">
+          <h1 className="text-[18px] md:text-5xl font-semibold text-black">
             Contact Us
-          </p>
+          </h1>
           <p className="text-[12px] md:text-2xl font-normal text-[#74767B] text-center mt-1 md:mt-10 md:px-16">
             We’re here to assist with your financial needs. Our innovative
             fintech platform provides the tools and insights for smooth

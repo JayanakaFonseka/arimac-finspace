@@ -6,6 +6,11 @@ import SlideFadeWrapper from "../common/SlideFadeWrapper";
 import Image from "next/image";
 import { LetsTalkButton } from "../common/LetsTalkButton";
 import { useRouter } from "next/navigation";
+import { Sora } from "next/font/google";
+
+const sora = Sora({
+  subsets: ["latin"],
+});
 
 const tags = [
   {
@@ -83,7 +88,7 @@ export default function FintechHero() {
           wrapper="p"
           speed={50}
           repeat={Infinity}
-          className="text-5xl font-bold leading-[62px] md:min-w-[355px] min-h-[186px] text-transparent bg-clip-text bg-gradient-to-r from-[#3B36AB] from-0% to-[#1EC677] to-80%"
+          className="[font-family:var(--font-sora)] text-5xl font-bold leading-[62px] md:min-w-[355px] min-h-[186px] text-transparent bg-clip-text bg-gradient-to-r from-[#3B36AB] from-0% to-[#1EC677] to-80%"
         />
 
         {/* Description */}

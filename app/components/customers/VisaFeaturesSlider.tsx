@@ -126,7 +126,7 @@ export default function VisaFeaturesSlider() {
               height={68}
               className="mb-6"
             />
-            <p className="text-2xl font-semibold text-black">Challenge</p>
+            <h2 className="text-2xl font-semibold text-black">Challenge</h2>
             <p className="text-sm font-normal text-[#74767B] mt-2">
               {current.challenge}
             </p>
@@ -141,7 +141,7 @@ export default function VisaFeaturesSlider() {
               height={68}
               className="mb-6"
             />
-            <p className="text-2xl font-semibold text-black">Solution</p>
+            <h2 className="text-2xl font-semibold text-black">Solution</h2>
             <div className="flex flex-col md:flex-row gap-4 mt-4">
               <div className="flex flex-row gap-2">
                 <Image
@@ -206,7 +206,9 @@ export default function VisaFeaturesSlider() {
               key={step.id}
               className="flex flex-col min-w-[25%] text-center mt-6 md:mt-0"
             >
-              <p className="text-3xl font-bold text-[#152883]">{step.title}</p>
+              <h2 className="text-3xl font-bold text-[#152883]">
+                {step.title}
+              </h2>
               <p className="text-base font-normal text-[#152883]">
                 {step.description}
               </p>
