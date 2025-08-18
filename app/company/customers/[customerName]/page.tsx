@@ -11,12 +11,74 @@ import VisaFeaturesSlider from "@/app/components/customers/VisaFeaturesSlider";
 import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import ScrollReveal from "@/app/components/common/ScrollReveal";
 import VisaFeaturesSliderMobile from "@/app/components/mobile/about-finspace/VisaFeaturesSliderMobile";
+import { Metadata } from "next";
 
 type Props = {
   params: Promise<{
     customerName: string;
   }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const customer = await getCustomerByName(resolvedParams.customerName);
+
+  if (!customer) {
+    return {
+      title: "Customer | Arimac Finspace",
+      description:
+        "Explore our clients and their success stories in digital finance.",
+      keywords: [
+        "Arimac Finspace",
+        "FinTech solutions",
+        "digital finance",
+        "customer success",
+      ],
+      metadataBase: new URL("https://arimac-finspace.vercel.app"),
+      alternates: {
+        canonical: `https://arimac-finspace.vercel.app/customers/${resolvedParams.customerName}`,
+      },
+      openGraph: {
+        title: "Customer | Arimac Finspace",
+        description:
+          "Explore our clients and their success stories in digital finance.",
+        url: `https://arimac-finspace.vercel.app/customers/${resolvedParams.customerName}`,
+        siteName: "Arimac Finspace",
+        locale: "en_US",
+        type: "website",
+      },
+    };
+  }
+
+  // Generate dynamic keywords
+  const keywords = [
+    "Arimac Finspace",
+    "FinTech solutions",
+    "digital finance",
+    customer.name,
+    "customer success",
+    "client story",
+    "enterprise fintech",
+  ];
+
+  return {
+    title: `${customer.title} | Arimac Finspace`,
+    description: customer.description,
+    keywords,
+    metadataBase: new URL("https://arimac-finspace.vercel.app"),
+    alternates: {
+      canonical: `https://arimac-finspace.vercel.app/customers/${customer.identifier}`,
+    },
+    openGraph: {
+      title: `${customer.title} | Arimac Finspace`,
+      description: customer.description,
+      url: `https://arimac-finspace.vercel.app/customers/${customer.identifier}`,
+      siteName: "Arimac Finspace",
+      locale: "en_US",
+      type: "website",
+    },
+  };
+}
 
 export default async function CustomerPage({ params }: Props) {
   // Await params before accessing properties
@@ -242,7 +304,7 @@ export default async function CustomerPage({ params }: Props) {
                 alt={customer.featuresData.title}
                 width={716}
                 height={824}
-                className="absolute left-1/2 -translate-x-1/2 min-h-[850px] object-cover w-auto"
+                className="absolute left-1/2 -translate-x-1/2 min-h-[850px] object-cover w-auto "
               />
               {customer.featuresData.features.map((tag) => (
                 <SlideFadeWrapper
@@ -267,7 +329,7 @@ export default async function CustomerPage({ params }: Props) {
               ))}
             </div>
             {/* For mobile */}
-            <div className="flex md:hidden flex-row border w-full rounded-2xl bg-[#F3F3F3A3] mt-8 p-4">
+            <div className="flex md:hidden flex-row border justify-between w-full rounded-2xl bg-[#F3F3F3A3] mt-8 p-4">
               <div className="flex flex-col gap-4 text-start max-w-[174px] text-wrap">
                 {customer.featuresData.features.map((tag) => (
                   <p

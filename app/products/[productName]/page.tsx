@@ -12,12 +12,65 @@ import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import { BookADemoButton } from "@/app/components/common/BookADemoButton";
 import ScrollReveal from "@/app/components/common/ScrollReveal";
 import FeaturesSliderMobile from "@/app/components/mobile/products/FeaturesSliderMobile";
+import { Metadata } from "next";
 
 type Props = {
   params: Promise<{
     productName: string;
   }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const product = await getProductByName(resolvedParams.productName);
+  if (!product) {
+    return {
+      title: "Product Not Found | Arimac Finspace",
+      description:
+        "The requested product could not be found on Arimac Finspace.",
+      metadataBase: new URL("https://arimac-finspace.vercel.app"),
+      alternates: {
+        canonical: `https://arimac-finspace.vercel.app/products/${resolvedParams.productName}`,
+      },
+      openGraph: {
+        title: "Product Not Found | Arimac Finspace",
+        description:
+          "The requested product could not be found on Arimac Finspace.",
+        url: `https://arimac-finspace.vercel.app/products/${resolvedParams.productName}`,
+        siteName: "Arimac Finspace",
+        locale: "en_US",
+        type: "website",
+      },
+    };
+  }
+  const featuresList = product.features.map((f) => f.name).join(", ");
+  const benefitsList = product.benefits.map((b) => b.name).join(", ");
+  return {
+    title: `${product.name} | Arimac Finspace`,
+    description: `${product.name}: ${product.description} Key features include ${featuresList}. Benefits include ${benefitsList}. Learn more and request a demo today.`,
+    keywords: [
+      product.name,
+      "Arimac Finspace",
+      ...product.features.map((f) => f.name),
+      ...product.benefits.map((b) => b.name),
+      "Fraud Management",
+      "Payment Systems",
+      "Digital Payments",
+    ].join(", "),
+    metadataBase: new URL("https://arimac-finspace.vercel.app"),
+    alternates: {
+      canonical: `https://arimac-finspace.vercel.app/products/${product.identifier}`,
+    },
+    openGraph: {
+      title: `${product.name} | Arimac Finspace`,
+      description: `${product.name}: ${product.description} Key features include ${featuresList}. Benefits include ${benefitsList}.`,
+      url: `https://arimac-finspace.vercel.app/products/${product.identifier}`,
+      siteName: "Arimac Finspace",
+      locale: "en_US",
+      type: "website",
+    },
+  };
+}
 
 export default async function ProductPage({ params }: Props) {
   // Await params before accessing properties

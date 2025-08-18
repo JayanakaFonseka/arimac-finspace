@@ -12,14 +12,37 @@ import ScrollReveal from "@/app/components/common/ScrollReveal";
 import GradiantBorderTag from "@/app/components/common/GradiantBorderTag";
 import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import { BookADemoButton } from "@/app/components/common/BookADemoButton";
-// import { useRouter } from "next/navigation";
+// import { Metadata } from "next";
+
+// export const metadata: Metadata = {
+//   title: "Our Customers | Arimac Finspace",
+//   description:
+//     "Discover the clients who trust Arimac Finspace to deliver seamless digital finance solutions. From startups to established institutions, see how we help businesses achieve impactful results with our FinTech platforms.",
+//   keywords: [
+//     "Arimac Finspace customers",
+//     "FinTech solutions",
+//     "digital finance",
+//     "client stories",
+//     "customer success",
+//     "enterprise fintech",
+//     "startup fintech",
+//   ],
+//   metadataBase: new URL("https://arimac-finspace.vercel.app"),
+//   alternates: {
+//     canonical: "https://arimac-finspace.vercel.app/customers",
+//   },
+//   openGraph: {
+//     title: "Our Customers | Arimac Finspace",
+//     description:
+//       "Learn how Arimac Finspace empowers clients with scalable fintech solutions, enhancing digital finance experiences across industries.",
+//     url: "https://arimac-finspace.vercel.app/customers",
+//     siteName: "Arimac Finspace",
+//     locale: "en_US",
+//     type: "website",
+//   },
+// };
 
 export default function Customers() {
-  // const router = useRouter();
-  // const handleViewMore = (url: string) => {
-  //   router.push(url);
-  // };
-
   const customerStoriesRef = useRef<HTMLDivElement>(null);
 
   const scrollToCustomerStories = () => {

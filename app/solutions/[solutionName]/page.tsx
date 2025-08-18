@@ -13,12 +13,52 @@ import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import { BookADemoButton } from "@/app/components/common/BookADemoButton";
 import ScrollReveal from "@/app/components/common/ScrollReveal";
 import FeedbackCardCarouselMobile from "@/app/components/mobile/solutions/FeedbackCardCarouselMobile";
+import { Metadata } from "next";
 
 type Props = {
   params: Promise<{
     solutionName: string;
   }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const solution = await getSolutionByName(resolvedParams.solutionName);
+  if (!solution) {
+    return {
+      title: "Solution Not Found",
+      description: "The requested solution does not exist.",
+    };
+  }
+  const baseUrl = "https://finspace.arimac.com";
+  const canonicalUrl = `${baseUrl}/solutions/${solution.identifier}`;
+  return {
+    title: `${solution.name} | Arimac Finspace`,
+    description: solution.description,
+    keywords: [
+      "Arimac Finspace",
+      "digital banking solutions",
+      "fintech solutions",
+      solution.name,
+      solution.title,
+      "AI in finance",
+      "secure payments",
+      "enterprise fintech",
+    ],
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: `${solution.name} | Arimac Finspace`,
+      description: solution.description,
+      url: canonicalUrl,
+      siteName: "Arimac Finspace",
+      locale: "en_US",
+      type: "website",
+    },
+  };
+}
 
 export default async function SolutionPage({ params }: Props) {
   // Await params before accessing properties

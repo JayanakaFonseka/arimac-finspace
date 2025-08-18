@@ -6,6 +6,51 @@ import ScrollReveal from "./components/common/ScrollReveal";
 import FintechHeroMobile from "./components/mobile/home/FintechHeroMobile";
 import SolutionCarouselMobile from "./components/mobile/home/SolutionCarouselMobile";
 import ClientShowcaseMobile from "./components/mobile/home/ClientShowcaseMobile";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Arimac Finspace | Next-Gen Financial Solutions",
+  description:
+    "Arimac Finspace empowers businesses with next-generation financial solutions, AI-driven insights, and scalable digital innovations.",
+  keywords: [
+    "Fintech",
+    "Financial Solutions",
+    "Digital Banking",
+    "AI Finance",
+    "Arimac Finspace",
+  ],
+  authors: [{ name: "Arimac Finspace" }],
+  metadataBase: new URL("https://arimac-finspace.vercel.app/"),
+
+  openGraph: {
+    title: "Arimac Finspace | Next-Gen Financial Solutions",
+    description:
+      "Explore AI-powered financial services and digital banking solutions with Arimac Finspace.",
+    url: "https://arimac-finspace.vercel.app/",
+    siteName: "Arimac Finspace",
+    // images: [
+    //   {
+    //     url: "/og-image.jpg", // place this in /public folder
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Arimac Finspace Preview",
+    //   },
+    // ],
+    locale: "en_US",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Arimac Finspace | Next-Gen Financial Solutions",
+  //   description:
+  //     "AI-powered financial solutions and digital banking with Arimac Finspace.",
+  //   images: ["/og-image.jpg"], // same as OG image
+  //   creator: "@arimac", // optional if you have a Twitter handle
+  // },
+  alternates: {
+    canonical: "https://arimac-finspace.vercel.app/",
+  },
+};
 
 export default function Home() {
   return (

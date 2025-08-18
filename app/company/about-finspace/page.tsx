@@ -5,6 +5,36 @@ import { LetsTalkButton } from "@/app/components/common/LetsTalkButton";
 import ScrollReveal from "@/app/components/common/ScrollReveal";
 import SlideFadeWrapper from "@/app/components/common/SlideFadeWrapper";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Arimac Finspace | Next-Generation FinTech Solutions",
+  description:
+    "Learn about Arimac Finspace, a next-generation FinTech company building scalable platforms, innovative products like Sherlock and PayNow, and end-to-end solutions that empower businesses to grow smarter and deliver seamless financial experiences.",
+  keywords: [
+    "Arimac Finspace",
+    "FinTech solutions",
+    "digital banking",
+    "financial technology",
+    "Sherlock",
+    "PayNow",
+    "enterprise fintech",
+    "scalable fintech platforms",
+  ],
+  metadataBase: new URL("https://arimac-finspace.vercel.app"),
+  alternates: {
+    canonical: "https://arimac-finspace.vercel.app/about-finspace",
+  },
+  openGraph: {
+    title: "About Arimac Finspace | Next-Generation FinTech Solutions",
+    description:
+      "Discover how Arimac Finspace builds scalable fintech platforms, ready-to-deploy products, and custom solutions that simplify payments, integrations, and digital finance for enterprises and startups.",
+    url: "https://arimac-finspace.vercel.app/about-finspace",
+    siteName: "Arimac Finspace",
+    locale: "en_US",
+    type: "website",
+  },
+};
 
 export default async function AboutFinspace() {
   return (
